@@ -4,7 +4,8 @@ body{
     padding: 0;
     overflow-y: hidden;
 }
-.fullScreen{
+#background{
     width: 100vw;
     height:100vh;
+    display: none;
 }
