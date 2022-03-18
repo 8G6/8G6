@@ -1,6 +1,6 @@
 let $             = (a) => document.querySelector(a)
 $('.center').style.display = 'none'
-flag = 0
+$('#background').classList.toggle('fullScreen') 
 
 console.green = (a) => console.log('%c'+a,'color:green')
 

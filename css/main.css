@@ -1,11 +1,10 @@
 @import url(./loading.css);
-
-/* body{
+body{
     margin: 0;
     padding: 0;
     overflow-y: hidden;
 }
+.fullScreen{
+        width: 100vw;height:100vh;
 
-#background{
-    width: 100vw;height:100vh;
-} */
+}
