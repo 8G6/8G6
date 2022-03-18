@@ -16,12 +16,11 @@ bodY {
     transition: all 1s linear;
   }
   .wave {
-    z-index: 6;
     width: 25px;
     height: 250px;
     background: linear-gradient(45deg, rgb(255, 136, 0), #fff);
     margin: 10px;
-    animation: wave 2s linear infinite;
+    animation: wave 1s linear infinite;
     border-radius: 30%;
   }
   .wave:nth-child(2) {
