@@ -1,6 +1,5 @@
 
 
- <img src="https://komarev.com/ghpvc/?username=12">
 <div align="center"> 
      
       <br>
