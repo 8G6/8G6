@@ -5,11 +5,9 @@
       
       <a href='https://wakatime.com/@8g6'>
                   <img src="https://wakatime.com/badge/user/b22f0d5c-6b9c-4f1c-b03e-aded2821b835.svg"  width=20% height=5%>
-                  <img src="https://komarev.com/ghpvc/?username=8G6"  width=20% height=5%>
-      </a>
       <br>
       <h1 align='center'>
-            <img src="https://readme-typing-svg.herokuapp.com/?lines=Hi,+There!+%F0%9F%91%8B;I+am+Devadut+S+Balan+....;Wish+you+a+good+day+😇&center=true&size=26"    
+            <img src="https://readme-typing-svg.herokuapp.com/?lines=Hi,+There!+%F0%9F%91%8B;I+am+Devadut+S+Balan+....;Wish+you+a+good+day+😇 &center=true&size=26"    
        </h1>
       <br>
       <h3>Ever wondored why I choose this user name <a href='https://github.com/8G6'>(8G6)</a></h3>
