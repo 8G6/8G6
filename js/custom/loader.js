@@ -14,7 +14,7 @@ loading.spaceX      = 150
 loading.spaceY      = 100
 loading.random      = false
 loading.randomColor = 1
-loading.fadeOut     = false
+loading.fadeOut     = true
 
 loading.itrate()
 
