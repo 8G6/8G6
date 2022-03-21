@@ -2,8 +2,8 @@
   display: inline;
 }
 .loading{
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
   background-image: radial-gradient(rgb(3, 3, 3),rgb(22, 21, 21));
   z-index: 1;
   opacity: 0.9;
