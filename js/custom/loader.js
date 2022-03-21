@@ -1,7 +1,7 @@
 let script=null;
 let [error,sucess] = ['','']
 console.green = (a)=>console.log('%c'+a,'color:green')
-
+timeout = []
 let loading = new Matrix('background')
 setInterval(()=>{
     loading.timeout     = 
