@@ -60,5 +60,5 @@ async function jsInit(){
 }
 
 for(i=0;i<n;i++){
-    
+    for()
 }
