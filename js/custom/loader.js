@@ -44,9 +44,3 @@ async function jsInit(){
     let delays = [1,1,1]
     await load(urls,delays)
 }
-u=''
-for(i=2;i<26;i++){
-    for(j=1;j<3;j++){
-        u+=document.querySelector(`#tbl1 > tbody > tr:nth-child(${i}) > td:nth-child(${j})`).innerHTML+=','
-    }
-}
