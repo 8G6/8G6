@@ -5,10 +5,10 @@ console.green = (a)=>console.log('%c'+a,'color:green')
 let loading = new Matrix('background')
 loading.timeout     = 100        
 loading.background  = 'black'
-this.font        = 'monospace'
-this.fontSize    = '5pt'
-this.charArray   = chars('0','z')
-this.intervel    = null
+loading.font        = 'monospace'
+loading.fontSize    = '5pt'
+loading.charArray   = chars('0','z')
+loading.intervel    = null
 this.fontColor   = 'green'
 this.maximize    = true
 this.spaceX      = 150
