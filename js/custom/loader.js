@@ -3,9 +3,8 @@ let [error,sucess] = ['','']
 console.green = (a)=>console.log('%c'+a,'color:green')
 
 let loading = new Matrix('background')
-loading.timeout     = 100
-        
-this.background  = 'black'
+loading.timeout     = 100        
+loading.background  = 'black'
 this.font        = 'monospace'
 this.fontSize    = '5pt'
 this.charArray   = chars('0','z')
