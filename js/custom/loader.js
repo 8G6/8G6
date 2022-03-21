@@ -12,7 +12,7 @@ loading.fontColor   = 'green'
 loading.maximize    = true
 loading.spaceX      = 15
 loading.spaceY      = 15
-loading.random      = false
+loading.random      = true
 loading.randomColor = 1
 loading.fadeOut     = true
 
