@@ -1,7 +1,7 @@
 let script=null;
 let [error,sucess] = ['','']
 console.green = (a)=>console.log('%c'+a,'color:green')
-timeout = [10,20,45,70,100,110]
+
 let loading = new Matrix('background')
 
 loading.background  = 'black'
