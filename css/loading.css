@@ -1,7 +1,7 @@
 .loading{
   width: 50%;
   height: 70%;
-  background-image: radial-gradient();
+  background-image: radial-gradient(black,gray);
 }
 
 .center{
