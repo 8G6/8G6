@@ -4,7 +4,7 @@ console.green = (a)=>console.log('%c'+a,'color:green')
 
 let loading = new Matrix('background')
 loading.timeout     = 100
-        this.ctx         = this.canvas.getContext('2d');
+        
         this.background  = 'black'
         this.font        = 'monospace'
         this.fontSize    = '5pt'
