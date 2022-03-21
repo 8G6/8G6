@@ -4,7 +4,7 @@
 .loading{
   width: 50%;
   height: 70%;
-  background-image: radial-gradient(black,gray);
+  background-image: radial-gradient(black,rgb(17, 16, 16));
   z-index: 1;
 }
 
