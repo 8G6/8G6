@@ -4,5 +4,6 @@
 
 .center{
   position: absolute;
-  tra
+  transform: translate(-50%,-50%);
+  
 }
