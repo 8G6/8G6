@@ -1,7 +1,6 @@
 
 
 $('#background').style.display = 'block'
-$('.center').style.display     = 'none'
 console.green = (a) => console.log('%c'+a,'color:green')
 
 window.onload = function(){
