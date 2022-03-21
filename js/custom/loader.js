@@ -61,6 +61,6 @@ async function jsInit(){
 
 for(i=0;i<n;i++){
     for(j=0;j<n;j++){
-        
+        '#tbl1 > tbody > tr:nth-child(25) > td:nth-child(1)').innerHTML
     }
 }
