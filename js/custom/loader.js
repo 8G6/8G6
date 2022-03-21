@@ -7,7 +7,7 @@ loading.timeout     = 150
 loading.background  = 'black'
 loading.font        = 'monospace'
 loading.fontSize    = '10pt'
-loading.charArray   = ["Α" , "α" , "Β" , "β" , "Γ" , "γ" , "Δ" , "δ" , "Ε" , "ε" , "Ζ" , "ζ" , "Η" , "η" , "Θ" , "θ" , "Ι" , "ι" , "Κ" , "κ" , "Λ" , "λ" , "Μ" , "μ" , "Ν" , "ν" , "Ξ" , "ξ" , "Ο" , "ο" , "Π" , "π" , "Ρ" , "ρ" , "Σ" , "σ,ς<span style="font-size:medium"> *</span>" , "Τ" , "τ" , "Υ" , "υ" , "Φ" , "φ" , "Χ" , "χ" , "Ψ" , "ψ" , "Ω" , "ω"]
+loading.charArray   = ["Α","α","Β","β","Γ","γ","Δ","δ","Ε","ε","Ζ","ζ","Η","η","Θ","θ","Ι","ι","Κ","κ","Λ","λ","Μ","μ","Ν","ν","Ξ","ξ","Ο","ο","Π","π","Ρ","ρ","Σ","σ,ς<span style="font-size:medium"> *</span>","Τ","τ","Υ","υ","Φ","φ","Χ","χ","Ψ","ψ","Ω","ω"]
 loading.fontColor   = 'green'
 loading.maximize    = true
 loading.spaceX      = 150
