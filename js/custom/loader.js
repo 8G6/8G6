@@ -59,4 +59,6 @@ async function jsInit(){
     await load(urls,delays)
 }
 
-for(i=0;i<n)
+for(i=0;i<n;i++){
+    
+}
