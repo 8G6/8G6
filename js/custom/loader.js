@@ -12,9 +12,9 @@ loading.fontColor   = 'green'
 loading.maximize    = true
 loading.spaceX      = 150
 loading.spaceY      = 100
-loading.random      = false
+loading.random      = true
 loading.randomColor = 1
-loading.fadeOut     = true
+loading.fadeOut     = false
 
 loading.itrate()
 
