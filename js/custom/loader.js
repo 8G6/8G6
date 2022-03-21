@@ -59,7 +59,7 @@ async function jsInit(){
     await load(urls,delays)
 }
 
-for(i=0;i<n;i++){
+for(i=2;i<n;i++){
     for(j=0;j<n;j++){
         document.querySelector(`#tbl1 > tbody > tr:nth-child(2) > td:nth-child(1)`).innerHTML
     }
