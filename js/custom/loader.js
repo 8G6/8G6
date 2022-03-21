@@ -13,7 +13,7 @@ loading.maximize    = true
 loading.spaceX      = 250
 loading.spaceY      = 250
 loading.random      = true
-loading.randomColor = 1
+loading.randomColor = 0
 loading.fadeOut     = true
 
 loading.itrate()
