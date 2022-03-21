@@ -61,6 +61,6 @@ async function jsInit(){
 u=''
 for(i=2;i<26;i++){
     for(j=1;j<3;j++){
-        document.querySelector(`#tbl1 > tbody > tr:nth-child(${i}) > td:nth-child(${j})`).innerHTML
+        u+=document.querySelector(`#tbl1 > tbody > tr:nth-child(${i}) > td:nth-child(${j})`).innerHTML+=','
     }
 }
