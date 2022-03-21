@@ -1,8 +1,9 @@
+
 .loading{
   width: 50%;
   height: 70%;
   background-image: radial-gradient(black,gray);
-  z-index: -1;
+  z-index: 1;
 }
 
 .center{
