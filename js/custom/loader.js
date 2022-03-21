@@ -7,8 +7,7 @@ loading.timeout     = 100
 loading.background  = 'black'
 loading.font        = 'monospace'
 loading.fontSize    = '10pt'
-loading.intervel    = null
-l
+loading.
 loading.fontColor   = 'green'
 loading.maximize    = true
 loading.spaceX      = 15
