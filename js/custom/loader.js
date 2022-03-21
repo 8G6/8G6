@@ -1,5 +1,12 @@
 let script=null;
 let [error,sucess] = ['','']
+console.green = (a)=>console.log('%c'+a,'color:green')
+
+let loading = new Matrix('background')
+loading.random = 1
+loading.randColors = 1
+loading.itrate()
+
 
 function create(url){
     url='./js/'+url+'.js'
@@ -7,13 +14,13 @@ function create(url){
     script.src=url
     script.t  =url
     script.onerror = function(){
-        console.clear()
+        // console.clear()
         error+=this.t+' not found\n'
         error!='' ? console.error(error) : 0
         console.green(sucess)
     }
     script.onload=function(){
-        console.clear()
+        // console.clear()
         sucess+=this.t+' loaded sucessfully\n'
         error!='' ? console.error(error) : 0
         console.green(sucess)
@@ -36,6 +43,7 @@ async function load(urls,delays){
 }
 
 async function jsInit(){
+
     let urls   = ['custom/functions','custom/3d/3d_functions','custom/3d/animation']
     let delays = [1,1,1]
     await load(urls,delays)

@@ -1,4 +1,4 @@
-let  $             = (a) => document.querySelector(a)
+
 
 $('#background').style.display = 'block'
 $('.center').style.display     = 'none'
