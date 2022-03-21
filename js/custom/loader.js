@@ -16,8 +16,7 @@ loading.spaceY      = 150
 loading.random      = false
 loading.randomColor = false
 this.fadeOut     = false
-this.rain        = false
-this.randJSON    = {x:false,y:false}
+
 
 
 function create(url){
