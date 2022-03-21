@@ -16,7 +16,7 @@ loading.random      = false
 loading.randomColor = 1
 loading.fadeOut     = false
 
-
+loading.i
 
 function create(url){
     url='./js/'+url+'.js'
