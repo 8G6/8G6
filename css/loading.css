@@ -6,6 +6,7 @@
   height: 100%;
   background-image: radial-gradient(black,rgb(37, 35, 35));
   z-index: 1;
+  opacity: 0.8;
 }
 
 .center{
