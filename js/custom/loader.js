@@ -3,7 +3,7 @@ let [error,sucess] = ['','']
 console.green = (a)=>console.log('%c'+a,'color:green')
 
 let loading = new Matrix('background')
-this.timeout     = 100
+loading.timeout     = 100
         this.ctx         = this.canvas.getContext('2d');
         this.background  = 'black'
         this.font        = 'monospace'
