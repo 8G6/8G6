@@ -5,20 +5,20 @@ console.green = (a)=>console.log('%c'+a,'color:green')
 let loading = new Matrix('background')
 loading.timeout     = 100
         
-        this.background  = 'black'
-        this.font        = 'monospace'
-        this.fontSize    = '5pt'
-        this.charArray   = chars('0','z')
-        this.intervel    = null
-        this.fontColor   = 'green'
-        this.maximize    = true
-        this.spaceX      = 150
-        this.spaceY      = 150
-        this.random      = false
-        this.randomColor = false
-        this.fadeOut     = false
-        this.rain        = false
-        this.randJSON    = {x:false,y:false}
+this.background  = 'black'
+this.font        = 'monospace'
+this.fontSize    = '5pt'
+this.charArray   = chars('0','z')
+this.intervel    = null
+this.fontColor   = 'green'
+this.maximize    = true
+this.spaceX      = 150
+this.spaceY      = 150
+this.random      = false
+this.randomColor = false
+this.fadeOut     = false
+this.rain        = false
+this.randJSON    = {x:false,y:false}
 
 
 function create(url){
