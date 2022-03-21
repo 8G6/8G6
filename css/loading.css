@@ -2,7 +2,7 @@
   display: inline;
 }
 .loading{
-  width: 50%;
+  width: 40%;
   height: 70%;
   background-image: radial-gradient(rgb(3, 3, 3),rgb(22, 21, 21));
   z-index: 1;
