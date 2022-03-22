@@ -13,7 +13,7 @@ function predict(x,bool){
 i=0;
 
 let k = setInterval(()=>{
-    i = i==101 ? 0 : i+1
+    i = i==101 ? 0 : i+20
     document.querySelector('#dev').style.width = `${predict(i,1)}%`
     document.querySelector('#dev').style.left  = `${predict(i,0)}%` 
 },1000)
