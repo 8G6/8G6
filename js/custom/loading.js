@@ -10,7 +10,7 @@ function predict(x,bool){
     return out
 }
 
-i=70;
+i=0;
 
 let k = setInterval(()=>{
     document.querySelector('#dev').style.width = `${predict(i,1)}%`
