@@ -19,7 +19,8 @@ body{
 }
 
 #dev{
-  width: 10%;
+  left:15%;
+  width:0%;
   animation: id 5s infinite;
   background-color: rgb(30, 255, 0);
   border: 1px solid rgb(38, 65, 122);
