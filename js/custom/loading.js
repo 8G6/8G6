@@ -16,5 +16,5 @@ let k = setInterval(()=>{
     i = i==101 ? 0 : i+1
     document.querySelector('#dev').style.width = `${predict(i,1)}%`
     document.querySelector('#dev').style.left  = `${predict(i,0)}%` 
-},100)
+},1)
 
