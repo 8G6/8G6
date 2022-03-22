@@ -20,5 +20,5 @@ let k = setInterval(()=>{
     i=0
     else
     i++
-},100)
+},1)
 
