@@ -2,6 +2,7 @@
 j=0;
 
 let k = setInterval(()=>{
+    co
     if(j<=80.1)
     j+=0.1
     else
