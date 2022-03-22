@@ -17,7 +17,7 @@ let k = setInterval(()=>{
     document.querySelector('#dev').style.left  = `${predict(j,0)}%` 
     console.log(j,predict(j,1),predict(j,0))
     if(j<100)
-    j+=20
+    j++
     else
     clearInterval(k)
 },500)
