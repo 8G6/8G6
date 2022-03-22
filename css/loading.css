@@ -26,7 +26,7 @@ body{
   border: 1px solid rgb(38, 65, 122);
 }
 
-@keyframes id {
+/* @keyframes id {
   0%{
     left:15%;
     width:0%;
@@ -52,4 +52,4 @@ body{
     left: 50%;
   width: 70%;
   }
-}
+} */
