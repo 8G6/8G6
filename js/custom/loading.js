@@ -19,6 +19,6 @@ let k = setInterval(()=>{
     if(i<100)
     i+=20
     else
-    i
+    i=0
 },500)
 
