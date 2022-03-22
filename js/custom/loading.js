@@ -13,11 +13,11 @@ function predict(x,bool){
 j=0;
 
 let k = setInterval(()=>{
-    document.querySelector('#dev').style.width = `${predict(i,1)}%`
-    document.querySelector('#dev').style.left  = `${predict(i,0)}%` 
+    document.querySelector('#dev').style.width = `${predict(j,1)}%`
+    document.querySelector('#dev').style.left  = `${predict(j,0)}%` 
     console.log(i,predict(i,1),predict(i,0))
-    if(i<100)
-    i+=20
+    if(j<100)
+    j+=20
     else
     clearInterval(k)
 },500)
