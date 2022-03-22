@@ -20,5 +20,5 @@ let k = setInterval(()=>{
     j++
     else
     clearInterval(k)
-},500)
+},10)
 
