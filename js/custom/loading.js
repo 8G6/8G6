@@ -16,7 +16,7 @@ let k = setInterval(()=>{
     document.querySelector('#dev').style.width = `${predict(j,1)}%`
     document.querySelector('#dev').style.left  = `${predict(j,0)}%` 
     console.log(j,predict(j,1),predict(j,0))
-    if(j<10)
+    if(j<200)
     j++
     else
     clearInterval(k)
