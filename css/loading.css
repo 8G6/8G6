@@ -27,9 +27,7 @@ body{
 }
 
 /* @keyframes id {
-  0%{width:0%;
-    left:15%;
-  }
+  0%{width:0%;left:15%;}
   20%{
     width: 12%;
     left:21%;
