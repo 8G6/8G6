@@ -7,6 +7,5 @@ let k = setInterval(()=>{
     else
     clearInterval(k)
     document.querySelector('#dev').style.width = `${j}%`
-   
 },1)
 
