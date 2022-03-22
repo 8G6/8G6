@@ -7,7 +7,7 @@ function predict(x,bool){
     for(i=0;i<n.length;i++){
         out+=n[i] * x ** (n.length-i-1)
     }
-    return parseInt(out
+    return parseInt(out)
 }
 
 j=0;
