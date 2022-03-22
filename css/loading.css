@@ -32,8 +32,5 @@ body{
   40%{width: 20%;left:25%;}
   60%{width: 30%;left:30%;}
   80%{width: 40%;left:35%;}
-  100%{
-    width: 70%;
-    left: 50%;
-  }
+  100%{width: 70%;left: 50%;}
 } */
