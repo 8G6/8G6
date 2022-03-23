@@ -49,7 +49,7 @@ function get(x,y,x_k,y_k){
 }
 let t='black'
 let k = setInterval(()=>{
-    [x,y]=get(x,y,2,0.1)
+    [x,y]=get(x,y,2,100)
     if(x%10==0){
         t=randomColor()
     }
