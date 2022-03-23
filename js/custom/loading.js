@@ -25,7 +25,7 @@ function get(x,y,x_k,y_k){
 
     if(x>=120 && x<=max_x-121 && bool_x) x+=x_k
     else{
-        if(x>=121){
+        if(x>=0){
             bool_x = 0
             x-=x_k
         }
