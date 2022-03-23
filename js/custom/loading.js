@@ -50,6 +50,7 @@ function get(x,y){
 
 let k = setInterval(()=>{
     [x,y]=get(x,y)
+    y=randomColor()
     document.querySelector('.cover').style.top = `${y}px`
     document.querySelector('.cover').style.left = `${x}px`
     document.querySelector('#dev').style.boxShadow = `inset ${y/40}px ${x/40}px ${y/40}px ${x/40}px ${}`
