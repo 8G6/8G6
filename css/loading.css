@@ -15,7 +15,7 @@ body{
   overflow-y: hidden;
   overflow-x: hidden;
 }
-.cover{
+/* .cover{
   position: absolute;
   transform: translate(-50%,-50%);
   left: 50%;
@@ -23,7 +23,7 @@ body{
   width: 20%;
   height: 40%;
   border: 1px solid rgb(254, 255, 255);
-}
+} */
 #dev{
   position: absolute;
   top: 0%;
