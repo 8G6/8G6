@@ -47,7 +47,7 @@ function get(x,y){
     }
     return [x,y]
 }
-
+let t='black'
 let k = setInterval(()=>{
     [x,y]=get(x,y)
     if(x%10==0){
