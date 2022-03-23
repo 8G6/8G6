@@ -27,7 +27,7 @@ function get(x,y,x_k,y_k){
     else{
         if(x>=121){
             bool_x = 0
-            x--
+            x-=x_k
         }
         else{
             bool_x = 1
