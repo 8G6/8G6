@@ -21,7 +21,7 @@ let max_x = disp.scrollWidth
 let max_y = disp.scrollHeight
 let [bool_x,bool_y] = [1,1]
 
-function get(x,y,x_k,y_k){
+function get(x,y,x_k,y_k,){
 
     if(x>=120 && x<=max_x-121 && bool_x) x+=x_k
     else{
