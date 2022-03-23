@@ -23,7 +23,6 @@ body{
   width: 20%;
   height: 40%;
   border: 3px solid rgb(0, 195, 255);
-  box-shadow: 2px 2px 20px rgb(0, 19, 0);
 }
 #dev{
   /* position: absolute;
