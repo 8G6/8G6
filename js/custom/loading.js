@@ -34,9 +34,9 @@ function get(x,y,x_k,y_k){
             x+=x_k
         }
     }
-    if(y>=120 && y<=max_y-0  && bool_y) y+=y_k
+    if(y>=0 && y<=max_y-0  && bool_y) y+=y_k
     else{
-        if(y>=120){
+        if(y>=0){
             bool_y = 0
             y-=y_k
         }
