@@ -33,7 +33,7 @@ body{
   top:50%;
   height: 4%;
   position: absolute;
-  /* box-shadow: inset 10px 10px 10px white; */
+  box-shadow: inset 10px 10px 10px white;
   backdrop-filter: blur(102px);
   background-color: rgb(254, 255, 255,0.05);
 }
