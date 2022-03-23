@@ -23,7 +23,7 @@ let [bool_x,bool_y] = [1,1]
 
 function get(x,y,x_k,y_k){
 
-    if(x>=120 && x<=max_x-0 && bool_x) x+=x_k
+    if(x>=0 && x<=max_x-0 && bool_x) x+=x_k
     else{
         if(x>=0){
             bool_x = 0
