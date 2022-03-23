@@ -51,7 +51,7 @@ function get(x,y){
 let k = setInterval(()=>{
     [x,y]=get(x,y)
     if(x%100==0){
-
+        t=randomColor()
     }
     t=randomColor()
     document.querySelector('.cover').style.top = `${y}px`
