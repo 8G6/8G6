@@ -38,7 +38,7 @@ function get(x,y,x_k,y_k){
     else{
         if(y>=120){
             bool_y = 0
-            y--
+            y+=y_k
         }
         else{
             bool_y = 1
