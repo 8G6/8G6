@@ -53,7 +53,7 @@ let k = setInterval(()=>{
     document.querySelector('.cover').style.top = `${y}px`
     document.querySelector('.cover').style.left = `${x}px`
     document.querySelector('.cover').style.textShadow = `2px 2px 2px ${randomColor()}`
-    document.querySelector('')
+    document.querySelector('#dev')
     console.log(x,y)
 },1)
 
