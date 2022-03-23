@@ -53,6 +53,6 @@ let k = setInterval(()=>{
     document.querySelector('.cover').style.top = `${y}px`
     document.querySelector('.cover').style.left = `${x}px`
     document.querySelector('.box').style.boxShadow = `inset ${x%5}px ${y%10}px 10px white;`
-    console.log(x,y)
+    console.log(`inset ${x%5}px ${y%10}px 10px white;`)
 },1)
 
