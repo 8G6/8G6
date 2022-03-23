@@ -52,7 +52,7 @@ let k = setInterval(()=>{
     [x,y]=get(x,y)
     document.querySelector('.cover').style.top = `${y}px`
     document.querySelector('.cover').style.left = `${x}px`
-    document.querySelector('.cover').style.textShadow = `2px 2px 2px ${randomColor()}`
+    document.querySelector('.box').style.textShadow = `2px 2px 2px ${randomColor()}`
     console.log(x,y)
 },1)
 
