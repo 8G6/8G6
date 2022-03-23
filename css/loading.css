@@ -1,23 +1,46 @@
-body{
-  background-color: rgb(0, 0, 0);
+.loading-bg>div,#dev{
+  border-radius: 100%;
 }
-
+.loading-bg{
+  position: absolute;
+    top:0;
+    left:0;
+    filter: progid: DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#003073', endColorstr='#029797');
+    background-image: linear-gradient(135deg, #003073, #029797);
+    z-index:-99;
+    width: 100vw;
+    height: 100vh;
+}
+body{
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
 .cover{
   position: absolute;
-  left: 10%;
-  top:49%;
-  width: 80%;
-  height: 6%;
-  background-color: aliceblue;
-  border: 2px solid blue;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top:50%;
+  width: 20%;
+  height: 40%;
+  border: 3px solid rgb(0, 195, 255);
+  background-image: linear-gradient(-250deg, #3b393b, #0f0f0f);;
+  box-shadow: 2px 2px 20px rgb(0, 19, 0);
 }
-.loading{
+#dev{
   position: absolute;
-  left: 10.1%;
-  top:49.1%;
-  width: 0%;
-  height: 6.2%;
-  background-color: rgb(0, 236, 51);
+  top: 0%;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(-250deg, #082294, #e210d1);
+  animation: circle 0.5s infinite;
+  box-shadow: 3px 3px 3px rgb(0, 1, 3);
+  display: flex;
+  justify-content: center;
+  100%{clip-path: circle(400px at 50% 50%);}
 }
 
+@keyframes circle {
+  0%{clip-path: circle(10px at 0% 50%);}
+  
+}
 
