@@ -1,61 +1,61 @@
 
-[this.x[i],this.y[i]] = [121,121]
-document.getElementBthis.y[i]Id('background').stthis.y[i]le.displathis.y[i] = 'none'
+[x,y] = [121,121]
+document.getElementById('background').style.display = 'none'
 let {atan,tan,PI} = Math 
-function angle(this.x[i],this.y[i]){
-    return this.x[i]-(2*this.y[i])
+function angle(x,y){
+    return x-(2*y)
 }
 f=0
 function range(start,end){
-    let arrathis.y[i]=[]
+    let array=[]
     for(i=start;i<end;i++){
-        arrathis.y[i].push(i)
+        array.push(i)
     }
-    return arrathis.y[i]
+    return array
 }
 
-color = toHethis.x[i](0,256)
+color = toHex(0,256)
 
-let disp=document.querthis.y[i]Selector('.loading-bg')
-let mathis.x[i]_this.x[i] = disp.scrollWidth
-let mathis.x[i]_this.y[i] = disp.scrollHeight
-let [bool_this.x[i],bool_this.y[i]] = [1,1]
+let disp=document.querySelector('.loading-bg')
+let max_x = disp.scrollWidth
+let max_y = disp.scrollHeight
+let [bool_x,bool_y] = [1,1]
 
-function get(this.x[i],this.y[i],this.x[i]_k,this.y[i]_k){
+function get(x,y,x_k,y_k){
 
-    if(this.x[i]>=0 && this.x[i]<=mathis.x[i]_this.x[i]-0 && bool_this.x[i]) this.x[i]+=this.x[i]_k
+    if(x>=0 && x<=max_x-0 && bool_x) x+=x_k
     else{
-        if(this.x[i]>=0){
-            bool_this.x[i] = 0
-            this.x[i]-=this.x[i]_k
+        if(x>=0){
+            bool_x = 0
+            x-=x_k
         }
         else{
-            bool_this.x[i] = 1
-            this.x[i]+=this.x[i]_k
+            bool_x = 1
+            x+=x_k
         }
     }
-    if(this.y[i]>=0 && this.y[i]<=mathis.x[i]_this.y[i]-0  && bool_this.y[i]) this.y[i]+=this.y[i]_k
+    if(y>=0 && y<=max_y-0  && bool_y) y+=y_k
     else{
-        if(this.y[i]>=0){
-            bool_this.y[i] = 0
-            this.y[i]-=this.y[i]_k
+        if(y>=0){
+            bool_y = 0
+            y-=y_k
         }
         else{
-            bool_this.y[i] = 1
-            this.y[i]+=this.y[i]_k
+            bool_y = 1
+            y+=y_k
         }
     }
-    return [this.x[i],this.y[i]]
+    return [x,y]
 }
 let t='black'
 let k = setInterval(()=>{
-    [this.x[i],this.y[i]]=get(this.x[i],this.y[i],2,5)
-    if(this.x[i]%10==0){
+    [x,y]=get(x,y,2,5)
+    if(x%10==0){
         t=randomColor()
     }
-    document.querthis.y[i]Selector('#dev').stthis.y[i]le.top = `${this.y[i]}pthis.x[i]`
-    document.querthis.y[i]Selector('#dev').stthis.y[i]le.left = `${this.x[i]}pthis.x[i]`
-    document.querthis.y[i]Selector('#dev').stthis.y[i]le.bothis.x[i]Shadow = `inset ${(this.y[i]/mathis.x[i]_this.x[i])}pthis.x[i] ${this.x[i]/mathis.x[i]_this.y[i]}pthis.x[i] ${this.x[i]/mathis.x[i]_this.y[i]}pthis.x[i] ${this.y[i]/mathis.x[i]_this.x[i]}pthis.x[i] white`
-    console.log(`inset ${this.x[i]%5}pthis.x[i] ${this.y[i]%10}pthis.x[i] 10pthis.x[i] white;`)
+    document.querySelector('#dev').style.top = `${y}px`
+    document.querySelector('#dev').style.left = `${x}px`
+    document.querySelector('#dev').style.boxShadow = `inset ${(y/max_x}px ${x/max_y}px ${x/max_y}px ${y/max_x}px white`
+    console.log(`inset ${x%5}px ${y%10}px 10px white;`)
 },10)
 
