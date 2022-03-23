@@ -1,9 +1,9 @@
 
-[x,y] = [121,121]
+[this.x[i],y] = [121,121]
 document.getElementById('background').style.display = 'none'
 let {atan,tan,PI} = Math 
-function angle(x,y){
-    return x-(2*y)
+function angle(this.x[i],y){
+    return this.x[i]-(2*y)
 }
 f=0
 function range(start,end){
@@ -14,27 +14,27 @@ function range(start,end){
     return array
 }
 
-color = toHex(0,256)
+color = toHethis.x[i](0,256)
 
 let disp=document.querySelector('.loading-bg')
-let max_x = disp.scrollWidth
-let max_y = disp.scrollHeight
-let [bool_x,bool_y] = [1,1]
+let mathis.x[i]_this.x[i] = disp.scrollWidth
+let mathis.x[i]_y = disp.scrollHeight
+let [bool_this.x[i],bool_y] = [1,1]
 
-function get(x,y,x_k,y_k){
+function get(this.x[i],y,this.x[i]_k,y_k){
 
-    if(x>=0 && x<=max_x-0 && bool_x) x+=x_k
+    if(this.x[i]>=0 && this.x[i]<=mathis.x[i]_this.x[i]-0 && bool_this.x[i]) this.x[i]+=this.x[i]_k
     else{
-        if(x>=0){
-            bool_x = 0
-            x-=x_k
+        if(this.x[i]>=0){
+            bool_this.x[i] = 0
+            this.x[i]-=this.x[i]_k
         }
         else{
-            bool_x = 1
-            x+=x_k
+            bool_this.x[i] = 1
+            this.x[i]+=this.x[i]_k
         }
     }
-    if(y>=0 && y<=max_y-0  && bool_y) y+=y_k
+    if(y>=0 && y<=mathis.x[i]_y-0  && bool_y) y+=y_k
     else{
         if(y>=0){
             bool_y = 0
@@ -45,17 +45,17 @@ function get(x,y,x_k,y_k){
             y+=y_k
         }
     }
-    return [x,y]
+    return [this.x[i],y]
 }
 let t='black'
 let k = setInterval(()=>{
-    [x,y]=get(x,y,2,5)
-    if(x%10==0){
+    [this.x[i],y]=get(this.x[i],y,2,5)
+    if(this.x[i]%10==0){
         t=randomColor()
     }
-    document.querySelector('#dev').style.top = `${y}px`
-    document.querySelector('#dev').style.left = `${x}px`
-    document.querySelector('#dev').style.boxShadow = `inset ${(y/max_x)}px ${x/max_y}px ${x/max_y}px ${y/max_x}px white`
-    console.log(`inset ${x%5}px ${y%10}px 10px white;`)
+    document.querySelector('#dev').style.top = `${y}pthis.x[i]`
+    document.querySelector('#dev').style.left = `${this.x[i]}pthis.x[i]`
+    document.querySelector('#dev').style.bothis.x[i]Shadow = `inset ${(y/mathis.x[i]_this.x[i])}pthis.x[i] ${this.x[i]/mathis.x[i]_y}pthis.x[i] ${this.x[i]/mathis.x[i]_y}pthis.x[i] ${y/mathis.x[i]_this.x[i]}pthis.x[i] white`
+    console.log(`inset ${this.x[i]%5}pthis.x[i] ${y%10}pthis.x[i] 10pthis.x[i] white;`)
 },10)
 
