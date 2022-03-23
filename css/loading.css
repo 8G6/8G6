@@ -30,7 +30,7 @@ body{
   height: 100%;
   width: 100%;
   box-shadow: inset 10px 10px 10px white;
-  backdrop-filter: ;
+  backdrop-filter: blur(3px);
 }
 
 
