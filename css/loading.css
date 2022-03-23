@@ -28,6 +28,9 @@ body{
   position: absolute;
   top: 0%;
   width: 20%;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top:50%;
   height: 40%;
   position: absolute;
   /* box-shadow: inset 10px 10px 10px white; */
