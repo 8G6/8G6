@@ -52,7 +52,7 @@ let k = setInterval(()=>{
     [x,y]=get(x,y)
     document.querySelector('.cover').style.top = `${y}px`
     document.querySelector('.cover').style.left = `${x}px`
-    document.querySelector('.box').style.boxShadow = `box-shadow: inset 10px 10px 10px white;`
+    document.querySelector('.box').style.boxShadow = `inset 10px 10px 10px white;`
     console.log(x,y)
 },1)
 
