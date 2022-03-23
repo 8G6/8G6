@@ -23,7 +23,7 @@ let [bool_x,bool_y] = [1,1]
 
 function get(x,y,x_k,y_k){
 
-    if(x>=120 && x<=max_x-121 && bool_x) x++
+    if(x>=120 && x<=max_x-121 && bool_x) x+=x_k
     else{
         if(x>=121){
             bool_x = 0
@@ -31,7 +31,7 @@ function get(x,y,x_k,y_k){
         }
         else{
             bool_x = 1
-            x++
+            x+=x_k
         }
     }
     if(y>=120 && y<=max_y-121  && bool_y) y++
