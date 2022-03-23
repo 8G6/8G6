@@ -55,7 +55,7 @@ let k = setInterval(()=>{
     }
     document.querySelector('#dev').style.top = `${y}px`
     document.querySelector('#dev').style.left = `${x}px`
-    document.querySelector('#dev').style.boxShadow = `inset ${y/max_x}px ${x/max_y}px ${x/max_y}px ${y/max_x}px white`
+    document.querySelector('#dev').style.boxShadow = `inset ${(y/max_x)}px ${x/max_y}px ${x/max_y}px ${y/max_x}px white`
     console.log(`inset ${x%5}px ${y%10}px 10px white;`)
 },10)
 
