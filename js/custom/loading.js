@@ -54,7 +54,7 @@ let k = setInterval(()=>{
         t=randomColor()
     }
     document.querySelector('#dev').style.top = `${y}px`
-    document.querySelector('.cover').style.left = `${x}px`
+    document.querySelector('#dev').style.left = `${x}px`
     document.querySelector('#dev').style.boxShadow = `inset ${y/100}px ${x/100}px ${y/100}px ${x/100}px white`
     console.log(`inset ${x%5}px ${y%10}px 10px white;`)
 },10)
