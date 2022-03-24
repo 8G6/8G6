@@ -23,4 +23,5 @@ nav{
 }
 nav>ul{
     display: flex;
+    text-decoration: none;
 }
