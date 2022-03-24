@@ -169,7 +169,7 @@ class Bubble{
         this.interval.push(setInterval(this.animate,timeout))
     }
 
-    stop = (stop=)=>{
+    stop = (speed = 1)=>{
         let i=0.7
         setTimeout(()=>{
             this.interval.push(setInterval(() => {
