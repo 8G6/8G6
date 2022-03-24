@@ -95,6 +95,7 @@ class Bubble{
         return [this.x[i],this.y[i]]
     }
     init = ()=>{
+        his.randSizes       = []
         this.randSizes      = range(this.randSizeLim.start,this.randSizeLim.end,this.randSizeLim.step)
         this.parent.classList.toggle('bg')
         let i=0,div,y=0;
