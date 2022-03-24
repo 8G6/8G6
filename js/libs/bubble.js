@@ -89,7 +89,7 @@ class Bubble{
 
         return [this.x[i],this.y[i]]
     }
-    createStyle(Class){
+    createStyle=(Class)=>{
         let style=document.createElement('style');
         style.innerHTML = Class
         style.id        = 'bubble.css'
