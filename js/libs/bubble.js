@@ -125,6 +125,7 @@ class Bubble{
             this.times.push(-this.timeStart + new Date().getTime())
         }
     }
+    
     start = (timeout=this.timeout) =>{
         this.randColorSpeed = parseInt(predict(this.randColorDelay))-18
         console.log(this.randColorSpeed)
