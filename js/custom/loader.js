@@ -16,7 +16,7 @@ function bubbleSetup(){
     bubble.start()
     let i=0
     setInterval(()=>{
-        i+=50
+        i+=1
         $('.progress-bar-box').style.boxShadow   = `inset ${i}px ${i}px ${i}px #010f22`
     },10)
 }
