@@ -4,8 +4,8 @@ console.green = (a)=>console.log('%c'+a,'color:green')
 
 function bubbleSetup(){
     bubble = new Bubble('loading',15)
-    bubble.x_speed        = 5
-    bubble.y_speed        = 5
+    bubble.x_speed        = 1
+    bubble.y_speed        = 1
     bubble.randSize       = 1
     bubble.colorSatIndex  = 10
     bubble.randColor      = 1
