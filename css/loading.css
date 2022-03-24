@@ -1,29 +1,7 @@
 .loading-bg>div,#dev{
   border-radius: 100%;
 }
-.loading-bg{
-  position: absolute;
-    top:0;
-    left:0;
-    filter: progid: DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#003073', endColorstr='#029797');
-    background-image: linear-gradient(135deg, #003073, #029797);
-    z-index:-99;
-    width: 100vw;
-    height: 100vh;
-}
-body{
-  overflow-y: hidden;
-  overflow-x: hidden;
-}
-/* .cover{
-  position: absolute;
-  transform: translate(-50%,-50%);
-  left: 50%;
-  top:50%;
-  width: 20%;
-  height: 40%;
-  border: 1px solid rgb(254, 255, 255);
-} */
+
 #progress-bar{
   position: absolute;
   top: 0%;
