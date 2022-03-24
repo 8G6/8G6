@@ -24,7 +24,7 @@ body{
   height: 40%;
   border: 1px solid rgb(254, 255, 255);
 } */
-#dev{
+#progress-bar{
   position: absolute;
   top: 0%;
   width: 2%;
