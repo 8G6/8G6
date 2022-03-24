@@ -820,6 +820,20 @@ let colors = {
     "zinnwaldite brown": "#2c1608"
 }
 
+k={
+    'position': 'absolute',
+    'top': '0%',
+    'transform': 'translate(-50%,-50%)',
+    'border-radius': '90%',
+    'left': '50%',
+    'box-shadow': '10px 10px 10px white',
+    'backdrop-filter': 'blur(2px)',
+    'opacity': 0.6,
+    'background-color': 'rgba(255, 255, 255, 0.1)',
+    'border': '1px solid white',
+    'filter':'saturate(10px);contrast(1000px)',
+  }
+
 class Matrix{
     constructor(canvas){
         this.canvas      = $('#'+canvas)

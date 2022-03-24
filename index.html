@@ -8,21 +8,17 @@
     <title>Devadut S Balan</title>
 </head>
 <body onload="jsInit()">
-    <canvas  id="background" style="display: block;"></canvas>
+    <div id="loading"></div>
+    <script src="./js/libs/bubble.js"></script>
+    <script>
+        let bubble = new Bubble('loading',15)
+        bubble.x_speed        = 5
+        bubble.y_speed        = 5
+        bubble.randSize       = 0
+        bubble.colorSatIndex  = 10
+        bubble.randColor      = 1
+        bubble.size           = 50
+        bubble.start()
     </script>
-    <script src="./js/libs/three.js"></script>
-    <script src="./js/libs/matrix.js"></script>
-    <div class="loading-bg">
-        <div class="cover">
-            <div class="loading" id="dev">
-                <h1>
-                    loading
-                </h1>
-            </div>
-        </div>
-    </div>   
-    
-    <script src="./js/custom/loader.js"></script>
-    <script src="./js/custom/loading.js"></script>
 </body>
 </html>

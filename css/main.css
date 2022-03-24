@@ -1,4 +1,6 @@
 @import url(./loading.css);
+@import url(./bubble.css);
+
 body{
     margin: 0;
     padding: 0;
