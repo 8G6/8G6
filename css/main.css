@@ -20,7 +20,7 @@ nav{
     z-index: 100;
     transition: all ease-in;
 }
-nav>ul{
+nav{
     display: flex;
     flex-direction: row;
     list-style: none;
