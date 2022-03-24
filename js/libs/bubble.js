@@ -155,9 +155,7 @@ class Bubble{
         }
         this.c++
         if(this.c%this.randColorSpeed==0 && this.randColor){
-            for(i=0;i<this.bubble_count;i++){
-                this.color[i] = this.randColor ? `#${rand(this.randColors)}` : this.color[i]
-            }
+            for(i=0;i<this.bubble_count;i++)
         }
     }
 
