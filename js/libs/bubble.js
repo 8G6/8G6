@@ -56,6 +56,7 @@ class Bubble{
         this.randColorDelay     = 250
         this.interval           = []
         this.style              = null
+        this.colorSync          = fa
     }
 
     physics = (i,randSpeeds)=>{
