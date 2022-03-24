@@ -72,8 +72,6 @@ class Bubble{
         this.timeStart          = new Date().getTime()
         this.times              = []
     }
-    $     = (a,t=1)             => t ? document.querySelector(a) : document.querySelectorAll(a)
-    rand  = (a)                 => a[Math.floor(Math.random()*a.length)]
     physics = (i,randSpeeds)=>{
         if(this.x[i]>=0 && this.x[i]<=this.max_x-this.x_offset && this.bool_x[i]) this.x[i]+=this.randSpeed ? rand(this.randSpeeds.y): this.x_speed
         else{
