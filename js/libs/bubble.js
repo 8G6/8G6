@@ -179,9 +179,9 @@ class Bubble{
         },1/(i-(speed/100)))
         
     
-        // document.body.classList.toggle('bg')
-        // this.parent.classList.toggle('bg')
-        // this.parent.innerHTML = ''
-        // this.style.innerHTML  = ''
+        document.body.classList.toggle('bg')
+        this.parent.classList.toggle('bg')
+        this.parent.innerHTML = ''
+        this.style.innerHTML  = ''
     }
 }
