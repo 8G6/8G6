@@ -179,7 +179,7 @@ class Bubble{
             i-=(speed/100)
         }, 150))
         setTimeout(()=>{
-            clearInterval(this.i)
+            clearInterval(this.interval[0])
             document.body.classList.toggle('bg')
             this.parent.classList.toggle('bg')
             this.parent.innerHTML = ''
