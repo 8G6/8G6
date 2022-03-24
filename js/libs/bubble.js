@@ -116,7 +116,7 @@ class Bubble{
         return [this.x[i],this.y[i]]
     }
     init = ()=>{
-        createStyle('')
+        createStyle(``)
         this.randSizes      = range(this.randSizeLim.start,this.randSizeLim.end,this.randSizeLim.step)
         document.body.classList.toggle('bg')
         this,this.parent.classList.toggle('bg')
