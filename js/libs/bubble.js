@@ -140,6 +140,7 @@ class Bubble{
 
     animate = () =>{
         let i;
+        this.color=[]
         for(i=0;i<this.bubble_count;i++){
             [this.x[i],this.y[i]] = this.physics(i,{
                 x:rand(this.randSpeeds.x),
