@@ -9,7 +9,7 @@
   top: 50%;
   left: 50%;
 }
-#progress-bar{
+/* #progress-bar{
   height: 10%;
   width: 80%;
   position: absolute;
@@ -44,7 +44,7 @@
   transform: rotate(360deg);
   transition: all 5s ease;
   animation: wave 30s linear infinite;
-}
+} */
 @keyframes wave {
   0% { transform: rotate(0deg);}
   50% { transform: rotate(1900deg);}
@@ -55,4 +55,5 @@
 .progress-bar-box>h1.center{
   z-index: 101;
   font-size: 100px;
+  display: none;
 }
