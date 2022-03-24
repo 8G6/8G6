@@ -23,7 +23,7 @@ function create(url){
     script.src=url
     script.t  =url
     script.onerror = function(){
-        // console.clear()
+        console.clear()
         error+=this.t+' not found\n'
         error!='' ? console.error(error) : 0
         console.green(sucess)
