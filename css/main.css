@@ -21,6 +21,6 @@ nav{
     z-index: 100;
     transition: all ease-in;
 }
-ul{
+nav>ul{
     display: flex;
 }
