@@ -22,7 +22,9 @@ function predict(time){
     return rem
 }
 
-function create
+function createStyle(){
+    
+}
 
 class Bubble{
     constructor(parent_id,bubble_count=10,x_speed=1,y_speed=1){
