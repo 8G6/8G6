@@ -30,8 +30,7 @@
 } */
 
 
-.progress-bar-box .circle {
-  position: relative;
+.progress-bar-box{
   width: 50%;
   height: 50%;
   background-color: #fff;
