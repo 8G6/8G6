@@ -13,35 +13,3 @@ body{
     color: aliceblue;
     background-image: linear-gradient(45deg, #0e0e0e, #000003);
 }
-nav{
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    transition: all ease-in;
-    width: 100vw;
-}
-.nav-list{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    justify-content: right;
-    font-size: 20px;
-    width: 95%;
-    gap: 3vw;
-    margin-right: 2%;
-}
-nav>ul>li{
-    list-style: none;
-    padding: 10px;
-    margin: 0;
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    color: aliceblue;
-}
-nav>ul>li>a{
-    text-decoration: none;
-    color: aliceblue;
-}
-
