@@ -183,7 +183,7 @@ class Bubble{
             this.parent.innerHTML = ''
             this.style.innerHTML  = ''
             this.interval()
-        },1/(i-(speed/100)))
+        },wait)
         
     }
     stop = ()=>{
