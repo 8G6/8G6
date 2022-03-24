@@ -170,10 +170,12 @@ class Bubble{
     }
 
     stop = ()=>{
-        
         let i=1
         setTimeout(()=>{
-
+            this.interval(setInterval(() => {
+                this.parent.style.opacity = i
+                i-=0.1
+            }, 150))
         })
         
     
