@@ -49,7 +49,7 @@ function predict(time){
 }
 function createStyle(){
     div=document.createElement('style');
-    document.head.
+    document.head.app
 }
 
 class Bubble{
