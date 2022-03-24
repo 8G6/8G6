@@ -16,7 +16,7 @@ function bubbleSetup(){
     bubble.start()
     setInterval(()=>{
 
-    },1)
+    },100)
 }
 
 function create(url){
