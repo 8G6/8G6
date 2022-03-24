@@ -15,10 +15,10 @@ function bubbleSetup(){
     bubble.x_offset       = 5
     bubble.start()
     i=110
-    setInterval(()=>{
-        document.querySelector('.wave').style.top = `${i}%`
-        i--
-    },100)
+    // setInterval(()=>{
+    //     document.querySelector('.wave').style.top = `${i}%`
+    //     i--
+    // },100)
 }
 
 function create(url){
