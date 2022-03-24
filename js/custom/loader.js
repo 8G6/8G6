@@ -15,6 +15,7 @@ function bubbleSetup(){
     bubble1.y_offset       = 5
     bubble1.x_offset       = 5
     bubble1.start()
+    bubble2.start()
     i=110
     setInterval(()=>{
         document.querySelector('.wave').style.top = `${i}%`
