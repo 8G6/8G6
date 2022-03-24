@@ -25,4 +25,6 @@ nav>ul{
     display: flex;
     
 }
-nav>ul>a
+nav>ul>li>a{
+    text-decoration: none;
+}
