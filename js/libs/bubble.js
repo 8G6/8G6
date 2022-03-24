@@ -171,11 +171,8 @@ class Bubble{
 
     fadeOut = (speed = 10)=>{
         let i=0.7
+        
         setTimeout(()=>{
-            this.interval.push(setInterval(() => {
-                this.parent.style.opacity = i
-                i-=(speed/100)
-            }, 150))
             document.body.classList.toggle('bg')
             this.parent.classList.toggle('bg')
             this.parent.innerHTML = ''
