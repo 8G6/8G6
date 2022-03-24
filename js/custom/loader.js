@@ -12,9 +12,9 @@ function bubbleSetup(){
     bubble1.randColorDelay = 10
     bubble1.randSizeLim    = {start:50,end:150,step:25}
     bubble1.size           = 100
-    bubble.y_offset       = 5
-    bubble.x_offset       = 5
-    bubble.start()
+    bubble1.y_offset       = 5
+    bubble1.x_offset       = 5
+    bubble1.start()
     i=110
     setInterval(()=>{
         document.querySelector('.wave').style.top = `${i}%`
