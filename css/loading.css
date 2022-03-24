@@ -13,13 +13,13 @@
   position: absolute;
   top: 50%;
   background-color: black;
-  z-index: 1000;
+  z-index: 100;
   transition: all ease-in;
 }
 
 #progress-bar-box{
   height: 70%;
   width: 50%;
-  z-index: 1000;
+  z-index: 100;
   background-color: aquamarine;
 }
