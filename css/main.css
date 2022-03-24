@@ -26,7 +26,14 @@ nav>ul{
     
 }
 nav>ul>li{
-    
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+    transition: all ease-in;
 }
 nav>ul>li>a{
     text-decoration: none;
