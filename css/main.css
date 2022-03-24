@@ -22,7 +22,7 @@ nav{
 }
 nav>ul{
     display: flex;
-    
+    float: left;
 }
 nav>ul>li{
     list-style: none;
