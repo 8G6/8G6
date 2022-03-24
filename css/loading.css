@@ -59,7 +59,7 @@
   100% {background-position:0px -40px;}
 }
 
-#box{
+.progress-bar-box{
 margin: 100px auto;
 width:200px; height:100px;
 border-radius:20px;
