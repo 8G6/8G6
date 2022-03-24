@@ -48,7 +48,7 @@
   border-radius: 38%;
   left: -50%;
   transform: rotate(360deg);
-  transition: all 0.1s ease;
+  transition: all 5s ease;
   animation: wave 10s linear infinite;
 }
 @keyframes wave {
