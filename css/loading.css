@@ -3,7 +3,8 @@
 }
 .center{
   position: absolute;
-  tr
+  transform: translate(-50%,-50%);
+  
 }
 #progress-bar{
   position: absolute;
