@@ -176,6 +176,6 @@ class Bubble{
         document.body.classList.toggle('bg')
         this.parent.classList.toggle('bg')
         this.parent.innerHTML = ''
-        $('#bubble.css')
+        $('#bubble.css').innerHTML = ''
     }
 }
