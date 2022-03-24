@@ -177,7 +177,6 @@ class Bubble{
     }
     fadeOut = (delay,speed = 10)=>{
         let i=1
-        let delay = 150
         let wait  = (i-(speed/100)) * delay * 10
         console.log(delay)
         this.interval.push(setInterval(() => {
