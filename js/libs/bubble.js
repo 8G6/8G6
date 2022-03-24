@@ -100,7 +100,7 @@ class Bubble{
                 left:0;
                 filter: progid: DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#003073', endColorstr='#029797');
                 background-image: linear-gradient(135deg, #003073, #029797);
-                z-index:-99;
+                z-index:99;
                 width: 100vw;
                 height: 100vh;
                 overflow-y: hidden;
