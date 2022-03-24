@@ -28,7 +28,7 @@ nav{
     justify-content: right;
     margin: 5vw;
     font-size: 20px;
-    width: 100%;
+    width: 100vw;
 }
 nav>ul>li{
     list-style: none;
