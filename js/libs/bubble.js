@@ -184,6 +184,7 @@ class Bubble{
         
     }
     stop = ()=>{
+        cl
         document.body.classList.toggle('bg')
         this.parent.classList.toggle('bg')
         this.parent.innerHTML = ''
