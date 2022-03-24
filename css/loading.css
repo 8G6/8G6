@@ -56,6 +56,6 @@
   50% { transform: rotate(800deg); }
   100% { transform: rotate(36deg); }
 }
-.circle:hover .wave {
+.progress-bar-box:hover .wave {
   top: 0%;
 }
