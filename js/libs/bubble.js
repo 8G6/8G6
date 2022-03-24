@@ -23,7 +23,7 @@ function predict(time){
 }
 
 
-function createStyle(Class,s){
+function createStyle(Class){
     let style=document.createElement('style');
     style.innerHTML = Class
     style.id        = 'bubble.css'
