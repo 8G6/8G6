@@ -5,9 +5,6 @@ LICENSE    : GNU General Public License v3.0
 
 ////////////////////////////////////////////////////////////*/
 
-
-let $     = (a,t=1)             => t ? document.querySelector(a) : document.querySelectorAll(a)
-let rand  = (a)                 => a[Math.floor(Math.random()*a.length)]
 let range = (start,end,step=1)  => {
     let arr = []
     let i;
