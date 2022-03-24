@@ -61,7 +61,7 @@
   top: 0px;
 }
 
-.progress-bar-box{
+.progress-bar-box>h1.center{
   z-index: 101;
   font-size: ;
 }
