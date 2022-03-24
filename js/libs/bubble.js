@@ -49,8 +49,7 @@ function predict(time){
 }
 function createStyle(){
     div=document.createElement('style');
-
-    this.parent.appendChild(div)
+    do
 }
 
 class Bubble{
