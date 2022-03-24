@@ -15,7 +15,7 @@ nav{
     position: absolute;
     top: 0;
     left: 0;
-    background-color: black;
+    background-image: ;
     z-index: 100;
     transition: all ease-in;
 }
