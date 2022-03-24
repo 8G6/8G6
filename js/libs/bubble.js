@@ -131,7 +131,7 @@ class Bubble{
         this.randColorSpeed = parseInt(predict(this.randColorDelay))-18
         console.log(this.randColorSpeed)
         this.init()
-        this.this.interval=setInterval(this.animate,timeout)
+        this.interval=setInterval(this.animate,timeout)
     }
     stop = ()=>{
         clearInterval(this.interval)
