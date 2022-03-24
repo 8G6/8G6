@@ -65,6 +65,7 @@ class Bubble{
         this.timeStart          = new Date().getTime()
         this.times              = []
         this.interval           = null
+        this.st
     }
 
     physics = (i,randSpeeds)=>{
