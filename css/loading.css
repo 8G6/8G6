@@ -21,6 +21,6 @@
   height: 80%;
   width: 40%;
   z-index: 100;
-  background-image: linear-gradient(to right, #00bcd4, #00e5ff);
+  background-image: linear-gradient(135deg, #00bcd4, #00e5ff);
   border-radius: 100%;
 }
