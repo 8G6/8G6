@@ -64,7 +64,7 @@
   width:200px; height:100px;
   border-radius:20px;
   border:5px solid #111111;
-        background-image:-webkit-linear-gradient( 45deg , #e6af17 0%, #e3b733 100%);
+  background-image:-webkit-linear-gradient( 45deg , #e6af17 0%, #e3b733 100%);
   opacity:0.95;
   box-shadow:0px 2px 0px #ffe8a5;
 
