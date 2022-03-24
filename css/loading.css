@@ -53,7 +53,7 @@
 }
 @keyframes wave {
   0% { transform: rotate(0deg); }
-  50% { transform: rotate(800deg); }
+  50% { transform: rotate(50deg); }
   100% { transform: rotate(36deg); }
 }
 .progress-bar-box:hover .wave {
