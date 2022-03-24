@@ -23,12 +23,7 @@ function predict(time){
 }
 
 
-function createStyle(Class){
-    let style=document.createElement('style');
-    style.innerHTML = Class
-    style.id        = 'bubble.css'
-    document.head.appendChild(style)
-}
+function 
 
 class Bubble{
     constructor(parent_id,bubble_count=10,x_speed=1,y_speed=1){
