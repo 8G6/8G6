@@ -3,19 +3,18 @@ let [error,sucess] = ['','']
 console.green = (a)=>console.log('%c'+a,'color:green')
 
 function bubbleSetup(){
-    bubble1 = new Bubble('loading',15)
-    bubble2 = new Bubble('bubble',15)
-    bubble1.x_speed        = 1
-    bubble1.y_speed        = 1
-    bubble1.randColor      = 1
-    bubble1.colorSatIndex  = 10
-    bubble1.randColorDelay = 10
-    bubble1.randSizeLim    = {start:50,end:150,step:25}
-    bubble1.size           = 100
-    bubble1.y_offset       = 5
-    bubble1.x_offset       = 5
-    bubble1.start()
-    bubble2.start()
+    bubble = new Bubble('loading',15)
+    bubble = new Bubble('loading',15)
+    bubble.x_speed        = 1
+    bubble.y_speed        = 1
+    bubble.randColor      = 1
+    bubble.colorSatIndex  = 10
+    bubble.randColorDelay = 10
+    bubble.randSizeLim    = {start:50,end:150,step:25}
+    bubble.size           = 100
+    bubble.y_offset       = 5
+    bubble.x_offset       = 5
+    bubble.start()
     i=110
     setInterval(()=>{
         document.querySelector('.wave').style.top = `${i}%`
