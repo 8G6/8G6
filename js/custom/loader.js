@@ -16,7 +16,7 @@ function bubbleSetup(){
     bubble.start()
     i=110
     setInterval(()=>{
-        document.querySelector('.wave').style.top = '1%'
+        document.querySelector('.wave').style.top = '${}%'
         i--
     },100)
 }
