@@ -10,6 +10,7 @@ body{
     height:100vh;
     display: none;
     background-color: black;
+    color: aliceblue;
 }
 nav{
     position: absolute;
