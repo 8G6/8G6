@@ -25,7 +25,9 @@ nav>ul{
     display: flex;
     
 }
-nav
+nav>ul>li{
+    
+}
 nav>ul>li>a{
     text-decoration: none;
 }
