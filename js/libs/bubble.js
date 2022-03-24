@@ -92,7 +92,8 @@ class Bubble{
         return [this.x[i],this.y[i]]
     }
     init = ()=>{
-        createStyle(`.bg{
+        createStyle(`
+        .bg{
             position: absolute;
             top:0;
             left:0;
@@ -103,7 +104,8 @@ class Bubble{
             height: 100vh;
             overflow-y: hidden;
             overflow-x: hidden;
-        }`)
+        }
+        `)
         createStyle(`
             .bubble{
             position: absolute;
