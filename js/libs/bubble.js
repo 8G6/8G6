@@ -171,7 +171,6 @@ class Bubble{
 
     stop = ()=>{
         
-        
         let i=1
         
         this.interval(setInterval(() => {
