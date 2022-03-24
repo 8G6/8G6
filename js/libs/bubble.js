@@ -173,7 +173,9 @@ class Bubble{
         clearInterval(this.interval)
         document.body.classList.toggle('bg')
         this.parent.classList.toggle('bg')
-        setI
+        setInterval(() => {
+            
+        }, interval);
         this.parent.innerHTML = ''
         this.style.innerHTML  = ''
     }
