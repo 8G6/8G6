@@ -44,7 +44,7 @@
    -webkit-background-clip: text; 
   -webkit-text-fill-color: transparent; 
   -webkit-animation-name: wave-animation; 
-  /*-webkit-animation-duration: 13s ;  
+  -webkit-animation-duration: 13s ;  
   -webkit-animation-iteration-count:infinite; 
   -webkit-animation-timing-function: linear ;   */
 }
