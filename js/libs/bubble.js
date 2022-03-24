@@ -183,5 +183,7 @@ class Bubble{
         },1/(i-(speed/100)))
         
     }
-    stop = ()
+    stop = ()=>{
+
+    }
 }
