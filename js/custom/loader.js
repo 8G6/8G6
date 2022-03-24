@@ -15,7 +15,7 @@ function bubbleSetup(){
     bubble.x_offset       = 5
     bubble.start()
     setInterval(()=>{
-        $('progress-bar-box').style.boxShadow   = ``
+        $('progress-bar-box').style.boxShadow   = `inset %{px 50px 100px #010f22;`
     },10)
 }
 
