@@ -45,7 +45,7 @@
   -webkit-text-fill-color: transparent; 
   -webkit-animation-name: wave-animation; 
   -webkit-animation-duration: 13s ;   
-  -webkit-animation-timing-function: linear ;   *
+  -webkit-animation-timing-function: linear ;   
 }
 
 @-webkit-keyframes 'wave-animation'
