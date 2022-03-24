@@ -33,9 +33,6 @@ function predict(time){
     return rem
 }
 
-function randomColor(){
-    return '#'+rand(hex)+rand(hex)+rand(hex)+rand(hex)
-}
 
 class Bubble{
     constructor(parent_id,bubble_count=10,x_speed=1,y_speed=1){
