@@ -175,8 +175,8 @@ class Bubble{
         let i=1
         setInterval(() => {
             this.parent.style.opacity = i
-            i-=0.01
-        }, 15);
+            i-=0.1
+        }, 150);
         document.body.classList.toggle('bg')
         this.parent.classList.toggle('bg')
         this.parent.innerHTML = ''
