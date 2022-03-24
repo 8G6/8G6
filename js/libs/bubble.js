@@ -48,7 +48,7 @@ function predict(time){
   filter: contrast(1000px);
 }
 function createStyle(){
-    div=document.createElement('style');
+    let style=document.createElement('style');
     document.head.appendChild(div)
 }
 
