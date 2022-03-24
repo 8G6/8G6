@@ -8,7 +8,7 @@ function bubbleSetup(){
     bubble.y_speed        = 1
     bubble.randColor      = 1
     bubble.colorSatIndex  = 10
-    bubble.randColorDelay = 100
+    bubble.randColorDelay = 10
     bubble.randSizeLim    = {start:50,end:150,step:25}
     bubble.size           = 100
     bubble.y_offset       = 5
