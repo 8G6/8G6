@@ -48,7 +48,16 @@ function predict(time){
   filter: contrast(1000px);
 }
 function createStyle(){
-
+    div=document.createElement('div');
+    div.className = 'bubble'
+    div.id        = `bubble-${i}`
+    div.style.width  = `${y}px`
+    div.style.height = `${y}px`
+    this.x[i] = rand(this.x_poss)
+    this.y[i] = rand(this.y_poss)
+    div.style.left = `${this.x[i]}px`
+    div.style.top  = `${this.y[i]}px`
+    this.parent.appendChild(div)
 }
 
 class Bubble{
