@@ -19,7 +19,7 @@
 
 .progress-bar-box{
   height: 80%;
-  width: auto
+  width: auto;
   z-index: 100;
   background-color: aquamarine;
   border-radius: 100%;
