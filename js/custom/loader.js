@@ -13,7 +13,7 @@ function bubbleSetup(){
     bubble.randSizeLim    = {start:100,end:150,step:25}
     bubble.size           = 50
     bubble.y_offset       = 20
-    bubble.x_offset       = 2
+    bubble.x_offset       = 20
     bubble.start()
 }
 
