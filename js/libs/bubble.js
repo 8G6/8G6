@@ -102,8 +102,7 @@ class Bubble{
                 z-index:99;
                 width: 100vw;
                 height: 100vh;
-                overflow-y: hidden;
-                overflow-x: hidden;
+                overflow: hidden;
             }
             .bubble{
                 position: absolute;
