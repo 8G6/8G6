@@ -173,6 +173,7 @@ class Bubble{
         
         
         let i=1
+        
         setInterval(() => {
             this.parent.style.opacity = i
             i-=0.05
