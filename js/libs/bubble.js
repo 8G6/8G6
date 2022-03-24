@@ -6,6 +6,21 @@ LICENSE    : GNU General Public License v3.0
 ////////////////////////////////////////////////////////////*/
 
 
+let range = (start,end,step=1)  => {
+    let arr = []
+    let i;
+    for(i=start;i<end+1;i+=step)
+        arr.push(i)
+    return arr
+}
+let hex = toHex(0,256)
+function toHex(strat,end){
+    let arr=[];
+    for(i=strat;i<end+1;i++){
+        arr.push(i.toString(16))
+    }
+    return arr
+}
 
 function predict(time){
     let rem = 0,i;
