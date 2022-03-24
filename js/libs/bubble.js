@@ -100,7 +100,7 @@ class Bubble{
     }
     init = ()=>{
         this.randSizes      = range(this.randSizeLim.start,this.randSizeLim.end,this.randSizeLim.step)
-        console.log(this.randSizeLim)
+        console.log(this.randSizes)
         this.parent.classList.toggle('bg')
         let i=0,div,y=0;
         for(i=0;i<this.bubble_count;i++){
