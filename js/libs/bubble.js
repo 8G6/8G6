@@ -1,3 +1,11 @@
+/*////////////////////////////////////////////////////////////
+
+WRITTEN BY : 8G6
+LICENSE    : GNU General Public License v3.0 
+
+////////////////////////////////////////////////////////////*/
+
+
 let $     = (a,t=1)             => t ? document.querySelector(a) : document.querySelectorAll(a)
 let rand  = (a)                 => a[Math.floor(Math.random()*a.length)]
 let range = (start,end,step=1)  => {
@@ -57,7 +65,7 @@ class Bubble{
         this.colorSatIndex  = 25
         this.color          = '#ffffff2f'
         this.randColor      = false
-        this.randColorDelay = 10
+        this.randColorDelay = 250
         this.timeStart      = new Date().getTime()
         this.times          = []
     }
