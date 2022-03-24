@@ -23,19 +23,6 @@ function predict(time){
 }
 
 
-.bubble{
-  position: absolute;
-  top: 0%;
-  transform: translate(-50%,-50%);
-  border-radius: 90%;
-  left: 50%;
-  backdrop-filter: blur(2px);
-  opacity: 0.85;
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1.5px solid white;
-  filter: saturate(10px);
-  filter: contrast(1000px);
-}
 function createStyle(Class){
     let style=document.createElement('style');
     style.innerHTML = Class
