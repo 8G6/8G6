@@ -134,6 +134,6 @@ class Bubble{
         setInterval(this.animate,timeout)
     }
     stop = ()=>{
-
+        
     }
 }
