@@ -168,7 +168,13 @@ class Bubble{
         this.init()
         this.interval.push(setInterval(this.animate,timeout))
     }
-    break 
+    stop = ()=>{
+        clearInterval(this.interval[0])
+        document.body.classList.toggle('bg')
+        this.parent.classList.toggle('bg')
+        this.parent.innerHTML = ''
+        this.style.innerHTML  = ''
+    }
     fadeOut = (speed = 10)=>{
         let i=1
         let delay = 150
