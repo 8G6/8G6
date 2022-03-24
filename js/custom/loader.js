@@ -19,7 +19,7 @@ function bubbleSetup(){
         i+=1
         $('.progress-bar-box').style.boxShadow   = `inset 50px 50px ${i}px #010f22`
         $('.progress-bar-box').backgroundIimage  = `linear-gradient(${i}deg, #029797, #0a0a0a)`
-    },100)
+    },10)
 }
 
 function create(url){
