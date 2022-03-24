@@ -22,7 +22,12 @@ nav{
 }
 nav>ul{
     display: flex;
-    float: right;
+    flex-direction: row;
+    list-style: none;
+    gap: 3vw;
+    justify-content: right;
+    margin: 5vw;
+    font-size: 20px;
 }
 nav>ul>li{
     list-style: none;
