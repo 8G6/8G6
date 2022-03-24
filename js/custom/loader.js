@@ -2,7 +2,7 @@ let script=null;
 let [error,sucess] = ['','']
 console.green = (a)=>console.log('%c'+a,'color:green')
 
-function bubble()
+function bubbleSetup()
 
 function create(url){
     url='./js/'+url+'.js'
