@@ -173,6 +173,7 @@ class Bubble{
         let i=1
         let delay = 150
         let wait  = (1/(i-(speed/100))) * delay
+        console.log(delay)
         this.interval.push(setInterval(() => {
             this.parent.style.opacity = i
             i-=(speed/100)
