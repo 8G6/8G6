@@ -60,7 +60,7 @@ async function jsInit(){
     let urls   = ['custom/functions','custom/3d/functions','custom/3d/animation']
     let delays = [1,1,1]
     await load(urls,delays)
-    bubble.parent.style.background = 'b'
+    bubble.parent.style.backgroundColor = ''
     bubble.fadeOut(500)
     await delay(500)
     $('#loading').innerHTML = ''
