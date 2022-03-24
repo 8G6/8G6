@@ -30,15 +30,6 @@
 }
 
 
-.progress-bar-box{
-  width: 25%;
-  height: 50%;
-  background-color: #fff;
-  border: 2px solid #fff;
-  border-radius: 50%;
-  overflow: hidden;
-
-}
 .wave {
   background-color: #3f68c5;
   position: absolute;
