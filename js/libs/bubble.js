@@ -153,7 +153,7 @@ class Bubble{
                                                        ${(this.colorSatIndex/100)*this.sizes[i]*this.x[i]/this.max_x}px 
                                                        ${(this.colorSatIndex/100)*this.sizes[i]*this.y[i]/this.max_y}px 
                                                        ${(this.colorSatIndex/100)*this.sizes[i]*this.x[i]/this.max_x}px 
-                                                       ${this.color}`
+                                                       ${randomColor()}`
         }
         this.c++
         if(this.c%this.randColorSpeed==0 && this.randColor){
