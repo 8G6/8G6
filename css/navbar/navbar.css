@@ -24,6 +24,7 @@ nav>ul>li{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     color: aliceblue;
+    margin-top: 5%;
 }
 nav>ul>li>a{
     text-decoration: none;
