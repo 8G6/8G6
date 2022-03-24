@@ -49,11 +49,11 @@
   left: -50%;
   transform: rotate(360deg);
   transition: all 5s ease;
-  animation: wave 30s linear infinite;
+  animation: wave 50s linear infinite;
 }
 @keyframes wave {
   0% { transform: rotate(0deg);}
-  50% { transform: rotate(3500deg);}
+  50% { transform: rotate(1000deg);}
   100% { transform: rotate(3600deg);}
 }
 
