@@ -39,35 +39,37 @@ function randomColor(){
 
 class Bubble{
     constructor(parent_id,bubble_count=10,x_speed=1,y_speed=1){
-        this.parent         = $('#'+parent_id)
-        this.bubble_count   = bubble_count>500 ? alert('500<=bubble_count') : bubble_count
-        this.bool_x         = Array(this.bubble_count).fill(1)
-        this.bool_y         = Array(this.bubble_count).fill(1)
-        this.max_x          = screen.width
-        this.max_y          = screen.height
-        this.x_speed        = x_speed
-        this.y_speed        = y_speed
-        this.randSpeeds     = {x:range(1,7),y:range(1,7)}
-        this.randSpeed      = false
-        this.randSize       = false
-        this.randSizeLim    = {start:10,end:100,step:2}
-        this.randSizes      = range(this.randSizeLim.start,this.randSizeLim.end,this.randSizeLim.step)
-        this.x              = Array(this.bubble_count).fill(0)
-        this.y              = Array(this.bubble_count).fill(0)
-        this.x_poss         = range(0,this.max_x,2)
-        this.y_poss         = range(0,this.max_y,2)
-        this.size           = 50
-        this.y_offset       = 2
-        this.x_offset       = 2
-        this.timeout        = 15
-        this.sizes          = []
-        this.c              = 0
-        this.colorSatIndex  = 25
-        this.color          = '#ffffff2f'
-        this.randColor      = false
-        this.randColorDelay = 250
-        this.timeStart      = new Date().getTime()
-        this.times          = []
+        this.parent             = $('#'+parent_id)
+        this.bubble_count       = bubble_count>500 ? alert('500<=bubble_count') : bubble_count
+        this.bool_x             = Array(this.bubble_count).fill(1)
+        this.bool_y             = Array(this.bubble_count).fill(1)
+        this.max_x              = screen.width
+        this.max_y              = screen.height
+        this.x_speed            = x_speed
+        this.y_speed            = y_speed
+        this.randSpeeds         = {x:range(1,7),y:range(1,7)}
+        this.randSpeed          = false
+        this.randSize           = false
+        this.randSizeLim.strat  = 50
+        this.randSizeLim.end    = 50
+        this.randSizeLim.step   = 50
+        this.randSizes          = range(this.randSizeLim.start,this.randSizeLim.end,this.randSizeLim.step)
+        this.x                  = Array(this.bubble_count).fill(0)
+        this.y                  = Array(this.bubble_count).fill(0)
+        this.x_poss             = range(0,this.max_x,2)
+        this.y_poss             = range(0,this.max_y,2)
+        this.size               = 50
+        this.y_offset           = 2
+        this.x_offset           = 2
+        this.timeout            = 15
+        this.sizes              = []
+        this.c                  = 0
+        this.colorSatIndex      = 25
+        this.color              = '#ffffff2f'
+        this.randColor          = false
+        this.randColorDelay     = 250
+        this.timeStart          = new Date().getTime()
+        this.times              = []
     }
     physics = (i,randSpeeds)=>{
         if(this.x[i]>=0 && this.x[i]<=this.max_x-this.x_offset && this.bool_x[i]) this.x[i]+=this.randSpeed ? rand(this.randSpeeds.y): this.x_speed
