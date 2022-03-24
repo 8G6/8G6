@@ -48,8 +48,8 @@ function predict(time){
   filter: contrast(1000px);
 }
 function createStyle(){
-    div=document.createElement('div');
-    
+    div=document.createElement('style');
+
     this.parent.appendChild(div)
 }
 
