@@ -180,6 +180,7 @@ class Bubble{
             this.parent.classList.toggle('bg')
             this.parent.innerHTML = ''
             this.style.innerHTML  = ''
+            this.interval()
         },1/(i-(speed/100)))
         
     }
