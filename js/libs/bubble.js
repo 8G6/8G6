@@ -176,6 +176,10 @@ class Bubble{
                 this.parent.style.opacity = i
                 i-=(speed/100)
             }, 150))
+            document.body.classList.toggle('bg')
+        this.parent.classList.toggle('bg')
+        this.parent.innerHTML = ''
+        this.style.innerHTML  = ''
         },1/(i-(speed/100)))
         
     
