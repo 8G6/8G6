@@ -43,14 +43,14 @@
 
  background-image:-webkit-radial-gradient(center 10px,80px 100px, #111111 50%, #0099ff 51%);
    
-background-size:40px 110px;  
+  background-size:40px 110px;  
  
--webkit-background-clip: text; 
--webkit-text-fill-color: transparent; 
--webkit-animation-name: wave-animation; 
--webkit-animation-duration: 13s ;  
--webkit-animation-iteration-count:infinite; 
--webkit-animation-timing-function: linear ; 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+  -webkit-animation-name: wave-animation; 
+  -webkit-animation-duration: 13s ;  
+  -webkit-animation-iteration-count:infinite; 
+  -webkit-animation-timing-function: linear ; 
 }
 
 @-webkit-keyframes 'wave-animation'
