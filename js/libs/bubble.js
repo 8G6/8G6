@@ -155,7 +155,7 @@ class Bubble{
         }
         this.c++
         if(this.c%this.randColorSpeed==0 && this.randColor){
-            this.color.push(randomColor())
+            for(i=0;)
         }
     }
 
