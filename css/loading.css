@@ -8,18 +8,7 @@
   left: 50%;
 }
 #progress-bar{
-  position: absolute;
-  top: 0%;
-  width: 2%;
-  transform: translate(-50%,-50%);
-  left: 50%;
-  top:50%;
-  height: 4%;
-  position: absolute;
-  box-shadow: inset 10px 10px 10px white;
-  backdrop-filter: blur(102px);
-  background-color: rgb(254, 255, 255,0.05);
-  z-index:100;
+  height: 2;
 }
 
 
