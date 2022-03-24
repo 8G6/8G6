@@ -14,6 +14,7 @@ function bubbleSetup(){
     bubble.y_offset       = 5
     bubble.x_offset       = 5
     bubble.start()
+    i=0
     setInterval(()=>{
         document.querySelector('.wave').style.top = '1%'
     },100)
