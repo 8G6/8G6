@@ -168,7 +168,7 @@ class Bubble{
         this.init()
         this.interval.push(setInterval(this.animate,timeout))
     }
-
+    break 
     fadeOut = (speed = 10)=>{
         let i=1
         let delay = 150
