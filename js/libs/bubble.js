@@ -96,7 +96,7 @@ class Bubble{
         document.head.appendChild(style)
     }
     init = ()=>{
-        createStyle(`
+        this.createStyle(`
             .bg{
                 position: absolute;
                 top:0;
