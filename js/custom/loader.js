@@ -14,7 +14,9 @@ function bubbleSetup(){
     bubble.y_offset       = 5
     bubble.x_offset       = 5
     bubble.start()
-    setInterval()
+    setInterval(()=>{
+
+    },1)
 }
 
 function create(url){
