@@ -56,7 +56,7 @@ class Bubble{
         this.randColorDelay     = 250
         this.timeStart          = new Date().getTime()
         this.times              = []
-        this.interval           = null
+        this.interval           = []
         this.style              = null
     }
 
