@@ -177,9 +177,9 @@ class Bubble{
             this.parent.style.opacity = i
             i-=0.1
         }, 150);
-        document.body.classList.toggle('bg')
-        this.parent.classList.toggle('bg')
-        this.parent.innerHTML = ''
-        this.style.innerHTML  = ''
+        // document.body.classList.toggle('bg')
+        // this.parent.classList.toggle('bg')
+        // this.parent.innerHTML = ''
+        // this.style.innerHTML  = ''
     }
 }
