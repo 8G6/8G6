@@ -58,4 +58,6 @@
   100% { transform: rotate(36deg);}
 }
 
-.circle:hover .wave{}
+.circle:hover .wave{
+  top: 0;
+}
