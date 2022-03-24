@@ -21,18 +21,7 @@ function predict(time){
     }
     return rem
 }
-.bg{
-    position: absolute;
-    top:0;
-    left:0;
-    filter: progid: DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#003073', endColorstr='#029797');
-    background-image: linear-gradient(135deg, #003073, #029797);
-    z-index:-99;
-    width: 100vw;
-    height: 100vh;
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
+
 
 .bubble{
   position: absolute;
