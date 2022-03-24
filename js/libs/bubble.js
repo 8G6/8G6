@@ -49,6 +49,7 @@ function predict(time){
 }
 function createStyle(Class){
     let style=document.createElement('style');
+    s
     document.head.appendChild(div)
 }
 
