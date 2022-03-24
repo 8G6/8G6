@@ -29,7 +29,7 @@ function create(url){
         console.green(sucess)
     }
     script.onload=function(){
-        // console.clear()
+        console.clear()
         sucess+=this.t+' loaded sucessfully\n'
         error!='' ? console.error(error) : 0
         console.green(sucess)
