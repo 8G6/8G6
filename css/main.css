@@ -38,7 +38,6 @@ nav>ul>li{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     color: aliceblue;
-    transition: all ease-in;
 }
 nav>ul>li>a{
     text-decoration: none;
