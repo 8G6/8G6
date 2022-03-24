@@ -21,7 +21,7 @@ nav{
     z-index: 100;
     transition: all ease-in;
 }
-nav>ul{
+nav>ul>text-decoration: none;{
     display: flex;
-    text-decoration: none;
+    
 }
