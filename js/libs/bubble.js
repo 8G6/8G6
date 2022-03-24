@@ -179,7 +179,7 @@ class Bubble{
         let i=1
         this.interval.push(setInterval(() => {
             this.parent.style.opacity = i
-            i-=(delay/1e4)
+            i-=(delay/1e3)
         }, delay/10))
         setTimeout(()=>{
             clearInterval(this.interval[1])
