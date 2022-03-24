@@ -12,8 +12,8 @@ function bubbleSetup(){
     bubble.randColorDelay = 25
     bubble.randSizeLim    = {start:100,end:150,step:25}
     bubble.size           = 50
-    this.y_offset           = 2
-        this.x_offset           = 2
+    bubble.y_offset           = 2
+    bubble.x_offset           = 2
     bubble.start()
 }
 
