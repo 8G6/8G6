@@ -105,19 +105,20 @@ class Bubble{
             overflow-x: hidden;
         }`)
         createStyle(`
-        .bubble{
-          position: absolute;
-          top: 0%;
-          transform: translate(-50%,-50%);
-          border-radius: 90%;
-          left: 50%;
-          backdrop-filter: blur(2px);
-          opacity: 0.85;
-          background-color: rgba(255, 255, 255, 0.05);
-          border: 1.5px solid white;
-          filter: saturate(10px);
-          filter: contrast(1000px);
-        }`)
+            .bubble{
+            position: absolute;
+            top: 0%;
+            transform: translate(-50%,-50%);
+            border-radius: 90%;
+            left: 50%;
+            backdrop-filter: blur(2px);
+            opacity: 0.85;
+            background-color: rgba(255, 255, 255, 0.05);
+            border: 1.5px solid white;
+            filter: saturate(10px);
+            filter: contrast(1000px);
+            }
+        `)
         this.randSizes      = range(this.randSizeLim.start,this.randSizeLim.end,this.randSizeLim.step)
         document.body.classList.toggle('bg')
         this,this.parent.classList.toggle('bg')
