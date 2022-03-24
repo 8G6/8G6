@@ -54,6 +54,7 @@ async function jsInit(){
     let urls   = ['custom/functions','custom/3d/functions','custom/3d/animation']
     let delays = [1,1,1]
     await load(urls,delays)
+    
 }
 
 
