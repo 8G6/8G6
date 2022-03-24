@@ -30,3 +30,8 @@ nav>ul>li>a{
     color: aliceblue;
 }
 
+nav>ul>li>img{
+    position: absolute;
+    top: 0%;
+    left: 5%;
+}
