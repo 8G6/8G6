@@ -26,7 +26,7 @@ function predict(time){
 function createStyle(Class){
     let style=document.createElement('style');
     style.innerHTML = Class
-    document.head.appendChild(div)
+    document.head.appendChild(style)
 }
 
 class Bubble{
