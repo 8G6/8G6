@@ -14,6 +14,6 @@
   top: 50%;
   background-color: black;
   z-index: 100;
-  transition: all e;
+  transition: all ease-in;
 }
 
