@@ -1,3 +1,5 @@
+@import url(./preloader/responsive.css);
+
 .loading-bg>div,#dev{
   border-radius: 100%;
 }
@@ -34,13 +36,13 @@
   background-color: #3f68c5;
   position: absolute;
   top: 120%;
-  height: 200%;
-  width: 195%;
+  height: 100%;
+  width: 100%;
   border-radius: 38%;
   left: -50%;
   transform: rotate(360deg);
   transition: all 5s ease;
-  animation: wave 50s linear infinite;
+  animation: wave 30s linear infinite;
 }
 @keyframes wave {
   0% { transform: rotate(0deg);}
@@ -48,9 +50,6 @@
   100% { transform: rotate(3600deg);}
 }
 
-.circle:hover .wave{
-  top: 0px;
-}
 
 .progress-bar-box>h1.center{
   z-index: 101;
