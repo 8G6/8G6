@@ -27,3 +27,38 @@
   box-shadow: inset 30px 50px 50px #010f22;
   text-align: center;
 }
+
+
+.circle {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  cursor:pointer;
+}
+.wave {
+  background-color: #3f68c5;
+  position: absolute;
+  top: 110%;
+  height: 200%;
+  width: 200%;
+  border-radius: 38%;
+  left: -50%;
+  transform: rotate(360deg);
+  transition: all 5s ease;
+  animation: wave 30s linear infinite;
+}
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(3600deg); }
+}
+.circle:hover .wave {
+  top: 0%;
+}
