@@ -182,7 +182,7 @@ class Bubble{
         this.interval.push(setInterval(() => {
             this.parent.style.opacity = i
             i-=(speed/100)
-        }, 150))
+        }, delay))
         setTimeout(()=>{
             clearInterval(this.interval[1])
             this.stop()
