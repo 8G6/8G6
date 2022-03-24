@@ -51,7 +51,7 @@ class Bubble{
         this.sizes              = []
         this.c                  = 0
         this.colorSatIndex      = 25
-        this.color              = '#ffffff2f'
+        this.color              = ['#ffffff2f']
         this.randColor          = false
         this.randColorDelay     = 250
         this.timeStart          = new Date().getTime()
