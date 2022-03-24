@@ -1,7 +1,9 @@
 .loading-bg>div,#dev{
   border-radius: 100%;
 }
-
+.center{
+  
+}
 #progress-bar{
   position: absolute;
   top: 0%;
