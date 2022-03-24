@@ -136,6 +136,6 @@ class Bubble{
     stop = ()=>{
         clearInterval(this.interval)
         document.body.classList.toggle('bg')
-        this.parent.sty
+        this.parent.
     }
 }
