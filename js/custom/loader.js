@@ -6,9 +6,9 @@ function bubbleSetup(){
     bubble = new Bubble('loading',5)
     bubble.x_speed        = 1
     bubble.y_speed        = 1
-    bubble.randSize       = 1
+    bubble.randSize       =0
     bubble.colorSatIndex  = 10
-    bubble.randColor      = 0
+    bubble.randColor      = 1
     bubble.randColorDelay = 25
     bubble.randSizeLim    = {start:50,end:150,step:25}
     bubble.size           = 70
