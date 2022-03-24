@@ -3,7 +3,7 @@ let [error,sucess] = ['','']
 console.green = (a)=>console.log('%c'+a,'color:green')
 
 function bubbleSetup(){
-    let bubble = new Bubble('loading',15)
+    bubble = new Bubble('loading',15)
     bubble.x_speed        = 5
     bubble.y_speed        = 5
     bubble.randSize       = 1
