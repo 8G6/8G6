@@ -49,7 +49,7 @@ function predict(time){
 }
 function createStyle(Class){
     let style=document.createElement('style');
-    s
+    style.innerHTML = c
     document.head.appendChild(div)
 }
 
