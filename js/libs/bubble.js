@@ -23,9 +23,10 @@ function predict(time){
 }
 
 
-function createStyle(Class){
+function createStyle(Class,s){
     let style=document.createElement('style');
     style.innerHTML = Class
+    style = style
     document.head.appendChild(style)
 }
 
@@ -64,7 +65,9 @@ class Bubble{
         this.timeStart          = new Date().getTime()
         this.times              = []
         this.interval           = null
+        this.style              = null
     }
+
     physics = (i,randSpeeds)=>{
         if(this.x[i]>=0 && this.x[i]<=this.max_x-this.x_offset && this.bool_x[i]) this.x[i]+=this.randSpeed ? rand(this.randSpeeds.y): this.x_speed
         else{
@@ -91,6 +94,7 @@ class Bubble{
 
         return [this.x[i],this.y[i]]
     }
+
     init = ()=>{
         createStyle(`
             .bg{
@@ -105,8 +109,6 @@ class Bubble{
                 overflow-y: hidden;
                 overflow-x: hidden;
             }
-        `)
-        createStyle(`
             .bubble{
                 position: absolute;
                 top: 0%;
@@ -120,10 +122,10 @@ class Bubble{
                 filter: saturate(10px);
                 filter: contrast(1000px);
             }
-        `)
+        `,this.style)
         this.randSizes      = range(this.randSizeLim.start,this.randSizeLim.end,this.randSizeLim.step)
         document.body.classList.toggle('bg')
-        this,this.parent.classList.toggle('bg')
+        this.parent.classList.toggle('bg')
         let i=0,div,y=0;
         for(i=0;i<this.bubble_count;i++){
             y= this.randSize ?  rand(this.randSizes) : this.size
@@ -140,6 +142,7 @@ class Bubble{
             this.parent.appendChild(div)
         }
     }
+
     animate = () =>{
         let i;
         for(i=0;i<this.bubble_count;i++){
@@ -168,8 +171,10 @@ class Bubble{
         this.init()
         this.interval=setInterval(this.animate,timeout)
     }
+
     stop = ()=>{
         clearInterval(this.interval)
+        document.head.removeChild(this.style)
         document.body.classList.toggle('bg')
         this.parent.classList.toggle('bg')
         this.parent.innerHTML = ''
