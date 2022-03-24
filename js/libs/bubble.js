@@ -146,7 +146,3 @@ class Bubble{
         setInterval(this.animate,timeout)
     }
 }
-
-
-let x = [-100,100,20]
-let y = [3032,19,1216]
