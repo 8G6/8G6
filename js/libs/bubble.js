@@ -171,7 +171,7 @@ class Bubble{
 
     fadeOut = (speed = 10)=>{
         let i=1
-        let delay =
+        let delay = 1
         this.interval.push(setInterval(() => {
             this.parent.style.opacity = i
             i-=(speed/100)
