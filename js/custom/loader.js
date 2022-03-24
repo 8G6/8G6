@@ -2,7 +2,18 @@ let script=null;
 let [error,sucess] = ['','']
 console.green = (a)=>console.log('%c'+a,'color:green')
 
-function bubbleSetup()
+function bubbleSetup(){
+    let bubble = new Bubble('loading',15)
+        bubble.x_speed        = 5
+        bubble.y_speed        = 5
+        bubble.randSize       = 1
+        bubble.colorSatIndex  = 10
+        bubble.randColor      = 1
+        bubble.randColorDelay = 25
+        bubble.randSizeLim    = {start:100,end:150,step:25}
+        bubble.size           = 50
+        bubble.start()
+}
 
 function create(url){
     url='./js/'+url+'.js'
