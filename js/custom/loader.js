@@ -18,7 +18,7 @@ function bubbleSetup(){
     setInterval(()=>{
         i+=1
         $('.progress-bar-box').style.boxShadow   = `inset 50px 50px ${i}px #010f22`4
-        $('.progress-bar-box').style.boxShadow linear-gradient(-145deg, #029797, #0a0a0a);
+        $('.progress-bar-box').backgroundIimage linear-gradient(-145deg, #029797, #0a0a0a);
     },100)
 }
 
