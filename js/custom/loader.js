@@ -14,11 +14,7 @@ function bubbleSetup(){
     bubble.y_offset       = 5
     bubble.x_offset       = 5
     bubble.start()
-    let i=0
-    setInterval(()=>{
-        i+=1
-        $('.progress-bar-box').style.boxShadow   = `inset 50px 50px ${50}px #010f22`
-    },100)
+    
 }
 
 function create(url){
