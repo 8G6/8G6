@@ -104,17 +104,19 @@ class Bubble{
             overflow-y: hidden;
             overflow-x: hidden;
         }`)
-        createStyle(`.bg{
-            position: absolute;
-            top:0;
-            left:0;
-            filter: progid: DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#003073', endColorstr='#029797');
-            background-image: linear-gradient(135deg, #003073, #029797);
-            z-index:-99;
-            width: 100vw;
-            height: 100vh;
-            overflow-y: hidden;
-            overflow-x: hidden;
+        createStyle(`
+        .bubble{
+          position: absolute;
+          top: 0%;
+          transform: translate(-50%,-50%);
+          border-radius: 90%;
+          left: 50%;
+          backdrop-filter: blur(2px);
+          opacity: 0.85;
+          background-color: rgba(255, 255, 255, 0.05);
+          border: 1.5px solid white;
+          filter: saturate(10px);
+          filter: contrast(1000px);
         }`)
         this.randSizes      = range(this.randSizeLim.start,this.randSizeLim.end,this.randSizeLim.step)
         document.body.classList.toggle('bg')
