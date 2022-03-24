@@ -19,6 +19,7 @@ nav{
     left: 0;
     z-index: 100;
     transition: all ease-in;
+    width: 100vw;
 }
 .nav-list{
     display: flex;
@@ -28,7 +29,7 @@ nav{
     justify-content: right;
     margin: 5vw;
     font-size: 20px;
-    width: 100vw;
+    
 }
 nav>ul>li{
     list-style: none;
