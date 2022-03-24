@@ -17,7 +17,7 @@
   transition: all ease-in;
 }
 
-.progress-bar-box{
+/* .progress-bar-box{
   height: 80%;
   width: 40%;
   z-index: 100;
@@ -27,7 +27,7 @@
   box-shadow: inset 30px 50px 50px #010f22;
   text-align: center;
   overflow: hidden;
-}
+} */
 
 
 .progress-bar-box .circle {
