@@ -15,15 +15,6 @@ let range = (start,end,step=1)  => {
         arr.push(i)
     return arr
 }
-let hex = toHex(0,256)
-function toHex(strat,end){
-    let arr=[];
-    for(i=strat;i<end+1;i++){
-        arr.push(i.toString(16))
-    }
-    return arr
-}
-
 function predict(time){
     let rem = 0,i;
     let coff = [-3.0657942138772067e-16, 1.729228857368293e-12, -4.0042396582245056e-9, 0.000004916003504282592, -0.003409059861779712, 1.2970163652633955, 18.175382805593483]
