@@ -176,7 +176,7 @@ class Bubble{
                 this.parent.style.opacity = i
                 i-=0.1
             }, 150))
-        },i-)
+        },i-0.1)
         
     
         // document.body.classList.toggle('bg')
