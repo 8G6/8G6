@@ -175,7 +175,7 @@ class Bubble{
         this.parent.innerHTML = ''
         this.style.innerHTML  = ''
     }
-    fadeOut = (delay,speed = 10)=>{
+    fadeOut = (delay)=>{
         let i=1
         let wait  = (i-(speed/100)) * delay * 10
         console.log(delay)
