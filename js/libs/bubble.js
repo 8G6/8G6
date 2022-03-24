@@ -169,7 +169,7 @@ class Bubble{
         this.interval.push(setInterval(this.animate,timeout))
     }
 
-    Fade = (speed = 10)=>{
+    fadeOut = (speed = 10)=>{
         let i=0.7
         setTimeout(()=>{
             this.interval.push(setInterval(() => {
