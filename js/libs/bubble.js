@@ -92,7 +92,7 @@ class Bubble{
     createStyle=(Class)=>{
         let style=document.createElement('style');
         style.innerHTML = Class
-        this.style      = 
+        this.style      = style
         document.head.appendChild(style)
     }
     init = ()=>{
