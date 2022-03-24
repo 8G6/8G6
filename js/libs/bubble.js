@@ -89,7 +89,12 @@ class Bubble{
 
         return [this.x[i],this.y[i]]
     }
-
+    createStyle(Class){
+        let style=document.createElement('style');
+        style.innerHTML = Class
+        style.id        = 'bubble.css'
+        document.head.appendChild(style)
+    }
     init = ()=>{
         createStyle(`
             .bg{
