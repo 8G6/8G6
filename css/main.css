@@ -28,6 +28,7 @@ nav{
     justify-content: right;
     font-size: 20px;
     width: 95%;
+    gap: 3vw;
     margin-right: 2%;
 }
 nav>ul>li{
