@@ -61,6 +61,8 @@ async function jsInit(){
     let delays = [1,1,1]
     await load(urls,delays)
     bubble.fadeOut(1000)
+    await delay(1000)
+    
     $('.body').style.display = 'block'
 }
 
