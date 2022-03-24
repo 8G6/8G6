@@ -185,7 +185,7 @@ class Bubble{
         setTimeout(()=>{
             clearInterval(this.interval[1])
             this.stop()
-        },wait)
+        },delay)
         
     }
    
