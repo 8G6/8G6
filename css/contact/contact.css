@@ -18,4 +18,6 @@
     margin: 2.5%;
 }
 
-#contact>
+#contact>.box>.box{
+    margin: 2.5%;
+}
