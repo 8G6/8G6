@@ -10,4 +10,7 @@
     border-radius: 2%;
 }
 
-#contact>
+#contact>img{
+    width: 50%;
+    height: 50%;
+}
