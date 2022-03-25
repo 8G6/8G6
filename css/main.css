@@ -27,7 +27,7 @@ body{
 
 .me{
     text-align: center;
-    position: fixed;
+    position: absolute;
     top:50%;
     left: 45%;
 }
