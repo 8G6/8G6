@@ -13,7 +13,7 @@
     border-radius: 2%;
 }
 
-#contact>img{
+#contact>.box>img{
     width: 50%;
     height: 50%;
 }
