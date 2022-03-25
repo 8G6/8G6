@@ -7,5 +7,5 @@ footer{
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 100;
-    text-shadow: 2px 2px 2px rgba(red, green, blue, alpha);
+    text-shadow: 2px 2px 2px rgba(red, green, blue, 0.1);
 }
