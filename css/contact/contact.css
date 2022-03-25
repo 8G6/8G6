@@ -18,7 +18,7 @@
     margin: 2.5%;
     margin-left: 10%;
     border-radius: 4%;
-    box-shadow: ;
+    box-shadow: inset 2px 3px 4px red;
 }
 
 #contact>.box>.box{
