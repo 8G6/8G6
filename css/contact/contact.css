@@ -1,5 +1,8 @@
 @import url(./responsive.css);
 
+#contact{
+    display: flex;
+}
 
 #contact>.box{
     background-image: linear-gradient(-75deg, rgb(153, 13, 13), rgb(11, 11, 190));
