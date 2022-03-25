@@ -1,0 +1,11 @@
+@import url(./responsive.css);
+
+
+#contact>.box{
+    background-image: linear-gradient(-75deg, rgb(153, 13, 13), rgb(11, 11, 190));
+    width: 50vw;
+    height: 70vh;
+    padding: 5%;
+    border: 1px solid white;
+    border-radius: 2%;
+}

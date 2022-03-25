@@ -1,16 +1,32 @@
 @import url(./preloader/loading.css);
 @import url(./navbar/navbar.css);
+@import url(./contact/contact.css);
+@import url(./footer/footer.css);
 
 body{
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(45deg, #0e0e0e, #000003);
+    background-image: linear-gradient(-175deg, rgb(7, 7, 104), rgb(0, 153, 255));
+    overflow-x: hidden;
 }
 #background,.body{
     width: 100vw;
-    height:100vh;
+    height:180h;
     display: none;
-    background-color: black;
     color: aliceblue;
-    background-image: linear-gradient(45deg, #0e0e0e, #000003);
+
+}
+#projects,#skills,#contact,#about{
+    margin:10%;
+    text-align: center;
+}
+
+.cards{
+    margin-top: 40%;
+    background-image: linear-gradient(-150deg,black,darkblue);
+    width: 70%;
+    margin-left: 10%;
+    opacity: 0.95;
+    padding: 5%;
+    border-radius: 5%;
 }
