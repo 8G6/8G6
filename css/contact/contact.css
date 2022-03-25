@@ -1,6 +1,6 @@
 @import url(./responsive.css);
 
-#contact.box{
+#contact>.box{
     display: flex;
     flex-direction: column;
 }
