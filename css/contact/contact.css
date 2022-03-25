@@ -17,7 +17,7 @@
     height: 70%;
     margin: 2.5%;
     margin-left: 10%;
-    border: 4%;
+    border-radius: 4%;
 }
 
 #contact>.box>.box{
