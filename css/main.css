@@ -10,3 +10,22 @@ body{
     background-image: linear-gradient(-175deg, rgb(7, 7, 104), rgb(0, 153, 255));
     overflow-x: hidden;
 }
+#background,.body{
+    width: 100vw;
+    height:180vh;
+    display: none;
+    color: aliceblue;
+
+}
+
+
+#about{
+    margin-top: 40%;
+}
+
+.me{
+    text-align: center;
+    position: absolute;
+    top:50%;
+    left: 45%;
+}
