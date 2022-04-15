@@ -9,5 +9,5 @@ mat.fontColor   = 'white'
 // mat.charArray   = ['*','#','-','*','#','-']
 // mat.randomColor = true
 mat.timeout     = 100
-mat.rain        = true
+mat.rain        = false
 mat.itrate()
