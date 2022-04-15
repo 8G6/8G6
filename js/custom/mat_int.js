@@ -7,5 +7,5 @@ mat.fontColor   = 'ghost white'
 mat.charArray   = ['*','#','-','*','#','-']
 mat.randomColor = false
 mat.timeout     = 10
-mat.rain        = tr
+mat.rain        = true
 mat.itrate()
