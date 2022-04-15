@@ -40,4 +40,11 @@ nav>ul>li>img{
     left: 5%;
 }
 
-@import url(./responsive.css);
+@media screen and (min-width:700px){
+    
+    .nav-list{
+       display: none;
+    }
+}
+
+
