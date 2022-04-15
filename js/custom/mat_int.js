@@ -4,7 +4,7 @@ mat.maximize    = 1
 mat.random      = true
 mat.fadeOut     = 1
 mat.fontColor   = 'ghost white'
-// mat.charArray   = ['*','#','-','*','#','-']
+mat.charArray   = ['*','#','-','*','#','-']
 mat.randomColor = false
 mat.timeout     = 10
 mat.itrate()
