@@ -1,7 +1,7 @@
 mat = new Matrix('bg')
 mat.fontSize    = '8pt'
 mat.maximize    = 1
-mat.random      = false
+mat.random      = true
 mat.spaceX      = 20
 mat.spaceY      = 20
 mat.fadeOut     = 1
