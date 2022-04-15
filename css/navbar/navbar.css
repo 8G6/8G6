@@ -1,8 +1,5 @@
 @import url(./responsive.css);
 
-.nav-list{
-    display: none;
- }
 
 nav{
     position: absolute;
@@ -42,3 +39,7 @@ nav>ul>li>img{
     top: 0%;
     left: 5%;
 }
+
+.nav-list{
+    display: none;
+ }
