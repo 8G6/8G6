@@ -12,7 +12,7 @@ body{
 }
 #background,.body{
     width: 100vw;
-    height:80vh;
+    height:20vh;
     display: none;
     color: aliceblue;
 }
