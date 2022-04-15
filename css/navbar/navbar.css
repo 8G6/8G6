@@ -1,5 +1,9 @@
 @import url(./responsive.css);
 
+.nav-list{
+    display: none;
+ }
+
 nav{
     position: absolute;
     top: 0;
