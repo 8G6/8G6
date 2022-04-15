@@ -6,5 +6,5 @@ mat.fadeOut     = 1
 mat.fontColor   = 'ghost white'
 // mat.charArray   = ['*','#','-','*','#','-']
 mat.randomColor = false
-mat.timeout     = 100
+mat.timeout     = 10
 mat.itrate()
