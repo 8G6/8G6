@@ -1,7 +1,8 @@
 @import url(./responsive.css);
 
 footer{
-    position: ;
+    position: absolute;
+    top: 10;
     padding: 3%;
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
