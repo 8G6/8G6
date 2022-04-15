@@ -40,7 +40,7 @@ nav>ul>li>img{
     left: 5%;
 }
 
-@media screen and (min-width:700px){
+@media screen and (max-width:700px){
     
     .nav-list{
        display: none;
