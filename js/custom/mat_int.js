@@ -8,6 +8,6 @@ mat.fadeOut     = 1
 mat.fontColor   = 'green'
 // mat.charArray   = ['*','#','-','*','#','-']
 mat.randomColor = false
-mat.timeout     = 57
+mat.timeout     = 100
 mat.rain        = true
 mat.itrate()
