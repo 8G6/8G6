@@ -3,7 +3,7 @@
     
     #burger{
         display:inline-block;
-        z-index: 2;
+        z-index: 200;
         width: 30px;
         height: 30px;
         margin: 10px 10px 10px 10px;
