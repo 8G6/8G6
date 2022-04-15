@@ -1,5 +1,5 @@
 mat = new Matrix('bg')
-mat.fontSize    = '4pt'
+mat.fontSize    = '5pt'
 mat.maximize    = 1
 mat.random      = true
 mat.spaceX      = 50
