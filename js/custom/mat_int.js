@@ -7,7 +7,7 @@ mat.spaceY      = 200
 mat.fadeOut     = 1
 mat.fontColor   = 'white'
 mat.charArray   = ['*','#','-','*','#','-']
-mat.randomColor = false
+mat.randomColor = t
 mat.timeout     = 100
 mat.rain        = true
 mat.itrate()
