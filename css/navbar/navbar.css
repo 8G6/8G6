@@ -1,4 +1,4 @@
-@import url(./responsive.css);
+
 
 
 nav{
@@ -40,6 +40,3 @@ nav>ul>li>img{
     left: 5%;
 }
 
-.nav-list{
-    display: none;
- }
