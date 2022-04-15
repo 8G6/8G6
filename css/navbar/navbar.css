@@ -40,3 +40,4 @@ nav>ul>li>img{
     left: 5%;
 }
 
+@import url(./responsive.css);
