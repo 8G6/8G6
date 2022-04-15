@@ -2,8 +2,7 @@ mat = new Matrix('bg')
 mat.fontSize    = '8pt'
 mat.maximize    = 1
 mat.random      = false
-this.spaceX      = 150
-        this.spaceY      = 150
+mat.spaceX      = 150mat.spaceY      = 150
 mat.fadeOut     = 1
 mat.fontColor   = 'ghost white'
 mat.charArray   = ['*','#','-','*','#','-']
