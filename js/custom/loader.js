@@ -57,7 +57,7 @@ async function load(urls,delays){
 
 async function jsInit(){
     bubbleSetup()
-    let urls   = ['custom/functions','custom/3d/functions','custom/3d/animation']
+    let urls   = ['custom/mat_int','custom/functions','custom/3d/functions','custom/3d/animation']
     let delays = [1,1,1]
     await load(urls,delays)
     bubble.fadeOut(500)

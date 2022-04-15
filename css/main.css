@@ -2,6 +2,7 @@
 @import url(./navbar/navbar.css);
 @import url(./contact/contact.css);
 @import url(./footer/footer.css);
+@import url(./matrix/matrix.css);
 
 body{
     margin: 0;
