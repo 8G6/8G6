@@ -1,7 +1,10 @@
 
 @media screen and (min-width:700px){
     
-    .nav-list{
-       display: none;
-    }
+    
+
 }
+
+.nav-list{
+    display: none;
+ }
