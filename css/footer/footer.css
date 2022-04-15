@@ -1,11 +1,11 @@
 @import url(./responsive.css);
 
 footer{
-    margin-top: -10%;
+    margin-top: -2%;
     padding: 3%;
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 100;
     text-shadow: 2px 2px 1px rgb(18, 6, 187);
-    height:10%;
+    height: 2;
 }
