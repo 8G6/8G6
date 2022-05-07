@@ -2,11 +2,14 @@
 
 <div align="center"> 
       <br>
+      <br>
       <a href='https://wakatime.com/@8g6'>
           <img src="https://wakatime.com/badge/user/b22f0d5c-6b9c-4f1c-b03e-aded2821b835.svg"  width=20% height=5%>
       </a>
       <br>
+      <br>
       <img src="https://komarev.com/ghpvc/?username=8g6e&color=green">
+      <br>
       <br>
       <h1 align='center'>
             <img src="https://readme-typing-svg.herokuapp.com/?lines=Hi,+There!+%F0%9F%91%8B;I+am+Devadut+S+Balan+....;Wish+you+a+good+day+😇&center=true&size=26"    
