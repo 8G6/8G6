@@ -68,4 +68,9 @@
            
       </div>
   # Stack Overflow
-      [![Devadut's Stack Overflow profile](https://stackoverflow-card.vercel.app/?userID=14225243&theme=solarized-light)](https://stackoverflow.com/users/14225243/devadut-s-balan)
+      <a href='https://stackoverflow.com/users/14225243/devadut-s-balan'>
+                  <img src="https://stackoverflow-card.vercel.app/?userID=14225243&theme=solarized-light"  width=70% height=50%>
+                 
+            </a>
+      
+      
