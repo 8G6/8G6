@@ -63,6 +63,7 @@
             <a href='https://wakatime.com/@8g6'>
                   <img src="https://wakatime.com/share/@8g6/e3f61f03-5fda-45c7-b29e-057e720374c4.svg"  width=70% height=50%>
                   <img src="https://wakatime.com/share/@8g6/dbdb613a-db40-42b7-8530-648339db8e3b.svg"  width=70% height=50%>
+                  <img src="hhttps://stackoverflow-card.vercel.app/?userID=14225243&theme=solarized-light"  width=70% height=50%>
                   <img src="https://wakatime.com/share/@8g6/33938ad1-c61b-4606-a33f-596ff46a2eb3.svg"  width=70% height=50%>
             </a>
       </div>
