@@ -1,8 +1,6 @@
 
 
 <div align="center"> 
-      
-      <img src="https://komarev.com/ghpvc/?username=8g6e&color=green">
       <br>
       <a href='https://wakatime.com/@8g6'>
                   <img src="https://wakatime.com/badge/user/b22f0d5c-6b9c-4f1c-b03e-aded2821b835.svg"  width=20% height=5%>
