@@ -1,6 +1,9 @@
 
 
 <div align="center"> 
+      <a href='https://stackoverflow.com/users/14225243/devadut-s-balan'>
+            <img src="https://stackoverflow-card.vercel.app/?userID=14225243&theme=solarized-light"  width=70% height=50%>  
+      </a>
       <img src="https://komarev.com/ghpvc/?username=8g6e&color=green">
       <br>
       <a href='https://wakatime.com/@8g6'>
@@ -67,10 +70,7 @@
             </a>
            
       </div>
-  # Stack Overflow
-      <a href='https://stackoverflow.com/users/14225243/devadut-s-balan'>
-                  <img src="https://stackoverflow-card.vercel.app/?userID=14225243&theme=solarized-light"  width=70% height=50%>
-                 
-            </a>
+
+      
       
       
