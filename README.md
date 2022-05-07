@@ -1,9 +1,7 @@
 
 
 <div align="center"> 
-      <a href='https://stackoverflow.com/users/14225243/devadut-s-balan'>
-            <img src="https://stackoverflow-card.vercel.app/?userID=14225243&theme=solarized-light"  width=70% height=50%>  
-      </a>
+      
       <img src="https://komarev.com/ghpvc/?username=8g6e&color=green">
       <br>
       <a href='https://wakatime.com/@8g6'>
@@ -61,15 +59,21 @@
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=8G6&theme=highcontrast">  
       
  </div>
-      <div align='center'>
-            <h2 align='center'>My Wakatime Stats</h2>
-            <a href='https://wakatime.com/@8g6'>
-                  <img src="https://wakatime.com/share/@8g6/e3f61f03-5fda-45c7-b29e-057e720374c4.svg"  width=70% height=50%>
-                  <img src="https://wakatime.com/share/@8g6/dbdb613a-db40-42b7-8530-648339db8e3b.svg"  width=70% height=50%>
-                  <img src="https://wakatime.com/share/@8g6/33938ad1-c61b-4606-a33f-596ff46a2eb3.svg"  width=70% height=50%>
-            </a>
-           
-      </div>
+<div align='center'>
+      <h2 align='center'>My Wakatime Stats</h2>
+      <a href='https://wakatime.com/@8g6'>
+            <img src="https://wakatime.com/share/@8g6/e3f61f03-5fda-45c7-b29e-057e720374c4.svg"  width=70% height=50%>
+            <img src="https://wakatime.com/share/@8g6/dbdb613a-db40-42b7-8530-648339db8e3b.svg"  width=70% height=50%>
+            <img src="https://wakatime.com/share/@8g6/33938ad1-c61b-4606-a33f-596ff46a2eb3.svg"  width=70% height=50%>
+      </a>
+
+</div>
+<div align='center'>
+      <h2 align='center'>Stackoverflow</h2>
+      <a href='https://stackoverflow.com/users/14225243/devadut-s-balan'>
+            <img src="https://stackoverflow-card.vercel.app/?userID=14225243&theme=solarized-light"  width=70% height=50%>  
+      </a>
+</div>
 
       
       
