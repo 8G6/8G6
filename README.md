@@ -16,7 +16,7 @@
        </h1>
       <br>
       <h3>Ever wondored why I choose this user name <a href='https://github.com/8G6'>(8G6)</a></h3>
-      <img src="https://activity-graph.herokuapp.com/graph?username=8g6">
+     
 </div>
 
   ```js
@@ -57,6 +57,9 @@
       <h2>Trophys</h2>
       <img src="https://github-profile-trophy.vercel.app/?username=8G6&theme=discord&&row=2&column=3">
       <h2 align="center">Profile Overview</h2>
+      <br>
+       <img src="https://activity-graph.herokuapp.com/graph?username=8g6">
+      <br>
       <img src="https://github-readme-stats.vercel.app/api?username=8G6&theme=blue-green">
       <img src="https://github-readme-streak-stats.herokuapp.com/?user=8G6&theme=blue-green">
       <br>
