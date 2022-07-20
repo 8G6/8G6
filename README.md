@@ -16,6 +16,7 @@
        </h1>
       <br>
       <h3>Ever wondored why I choose this user name <a href='https://github.com/8G6'>(8G6)</a></h3>
+      [![Ashutosh's github activity graph](https://activity-graph.herokuapp.com/graph?username=8g6)](https://github.com/ashutosh00710/github-readme-activity-graph)
 </div>
 
   ```js
