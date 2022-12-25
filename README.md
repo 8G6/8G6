@@ -81,7 +81,10 @@
             <img src="https://stackoverflow-card.vercel.app/?userID=14225243&theme=solarized-light"  width=70% height=50%>  
       </a>
 </div>
-
+<div align='center'>
+      <h2 align='center'>StarDev</h2>
+      <a href="https://stardev.io/developers/8G6"><img alt="Check out 8G6's profile on stardev.io" src="https://stardev.io/developers/8G6/badge/languages/global.svg" /></a>
+</div>
       
       
       
